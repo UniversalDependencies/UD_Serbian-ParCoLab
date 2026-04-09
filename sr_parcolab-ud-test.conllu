@@ -260,7 +260,7 @@
 2	ruka	ruka	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
 3	(	(	PUNCT	Z	_	2	punct	_	OrigDep=Ponct|SpaceAfter=No
 4	kao	kao	SCONJ	C_sub	_	5	case	_	OrigDep=Sub
-5	kandža	kandža	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	2	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg
+5	kandža	kandža	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg
 6	bez	bez	ADP	Prep	_	7	case	_	OrigDep=DepNPrep
 7	mesa	meso	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 8	,	,	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
@@ -2735,7 +2735,7 @@
 1	Iz	iz	ADP	Prep	_	2	case	_	OrigDep=DepNPrep
 2	noći	noć	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg
 3	u	u	ADP	Prep	_	4	case	_	OrigDep=Correl
-4	noć	noć	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
+4	noć	noć	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 5	,	,	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 6	već	već	ADV	Adv_gen_pos	Degree=Pos	7	advmod:emph	_	OrigDep=Emph
 7	godinama	godina	NOUN	N_com_ins_pl_f	Case=Ins|Gender=Fem|Number=Plur	0	root	_	OrigDep=Root|OrigFeats=c:ins;g:f;n:pl|SpaceAfter=No
@@ -3706,7 +3706,7 @@
 13	s	s	ADP	Prep	_	14	case	_	OrigDep=DepVPrep
 14	noge	noga	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg
 15	na	na	ADP	Prep	_	16	case	_	OrigDep=Correl
-16	nogu	noga	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
+16	nogu	noga	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	14	nmod	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 17	,	,	PUNCT	Z	_	16	punct	_	OrigDep=Ponct
 18	patkasto	patkasto	ADV	Adv_gen_pos	Degree=Pos	12	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 19	,	,	PUNCT	Z	_	18	punct	_	OrigDep=Ponct
@@ -8072,7 +8072,7 @@
 1	S	sa	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	vremena	vreme	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg
 3	na	na	ADP	Prep	_	4	case	_	OrigDep=Correl
-4	vreme	vreme	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
+4	vreme	vreme	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
 5	,	,	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 6	i	i	CCONJ	C_coord	_	7	cc	_	OrigDep=ConjCoord
 7	same	sam	ADJ	A_qual_nom_pl_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:pl
@@ -8328,7 +8328,7 @@
 39	ipak	ipak	ADV	Part	_	40	advmod	_	OrigDep=Emph
 40	izdvojen	izdvojen	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 41	,	,	PUNCT	Z	_	40	punct	_	OrigDep=Ponct
-42	obeležen	obeležen	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:sg
+42	obeležen	obeležen	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:sg
 43	žigom	žig	NOUN	N_com_ins_sg_m	Case=Ins|Gender=Masc|Number=Sing	42	obl	_	OrigDep=DepAdjCas|OrigFeats=c:ins;g:m;n:sg
 44	koji	koji	PRON	P_rel_-_sg_m_nom	Case=Nom|Gender=Masc|Number=Sing	47	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 45	mi	ja	PRON	P_pers_1_sg_-_dat	Case=Dat|Number=Sing|Person=1	47	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;n:sg;r:1
@@ -8344,7 +8344,7 @@
 55	od	od	ADP	Prep	_	56	case	_	OrigDep=Juxt
 56	klecala	klecati	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	53	conj	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg
 57	do	do	ADP	Prep	_	58	case	_	OrigDep=Correl
-58	sakristije	sakristija	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	56	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg
+58	sakristije	sakristija	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg
 59	–	–	PUNCT	Z	_	58	punct	_	OrigDep=Ponct
 60	nikad	nikada	ADV	Adv_indef_-	_	62	advmod	_	OrigDep=DepVAdv
 61	neću	hteti	AUX	V_aux_pres_1_sg_-_neg	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	62	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -8775,7 +8775,7 @@
 5	,	,	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 6	kao	kao	SCONJ	C_sub	_	8	case	_	OrigDep=DepEx_Sub
 7	na	na	ADP	Prep	_	8	case	_	OrigDep=DepEx_DepVPrep
-8	mrcini	mrcina	NOUN	N_com_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg|SpaceAfter=No
+8	mrcini	mrcina	NOUN	N_com_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg|SpaceAfter=No
 9	,	,	PUNCT	Z	_	8	punct	_	OrigDep=Ponct
 10	roj	roj	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	0	root	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:sg
 11	muva	muva	NOUN	N_com_gen_pl_f	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:f;n:pl
@@ -8912,7 +8912,7 @@
 29	iz	iz	ADP	Prep	_	30	case	_	OrigDep=DepVPrep
 30	stranice	stranica	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	33	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg
 31	u	u	ADP	Prep	_	32	case	_	OrigDep=Correl
-32	stranicu	stranica	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg
+32	stranicu	stranica	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg
 33	dokazuje	dokazivati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	OrigDep=PredRel|OrigFeats=n:sg;t:pres;r:3
 34	moju	moj	DET	A_pos_acc_sg_f_-	Case=Acc|Gender=Fem|Number=Sing	35	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
 35	grešnost	grešnost	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
@@ -10780,7 +10780,7 @@
 20	s	sa	ADP	Prep	_	21	case	_	OrigDep=Coord
 21	nosevima	nos	NOUN	N_com_ins_pl_m	Case=Ins|Gender=Masc|Number=Plur	8	conj	_	OrigDep=ComplPrep|OrigFeats=c:ins;g:m;n:pl
 22	kao	kao	SCONJ	C_sub	_	23	case	_	OrigDep=Sub
-23	školjke	školjka	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	21	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:pl
+23	školjke	školjka	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	21	nmod	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:pl
 24	puževa	puž	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 25	,	,	PUNCT	Z	_	24	punct	_	OrigDep=Ponct
 26	i	i	CCONJ	C_coord	_	29	cc	_	OrigDep=ConjCoord
@@ -11011,7 +11011,7 @@
 78	kao	kao	SCONJ	C_sub	_	81	case	_	OrigDep=Sub
 79	mali	mali	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	81	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
 80	dečji	dečji	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	81	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
-81	sarkofag	sarkofag	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	74	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
+81	sarkofag	sarkofag	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	74	nmod	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 82	,	,	PUNCT	Z	_	81	punct	_	OrigDep=Ponct
 83	fascikle	fascikla	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:pl
 84	s	sa	ADP	Prep	_	85	case	_	OrigDep=DepNPrep
@@ -11043,7 +11043,7 @@
 110	,	,	PUNCT	Z	_	109	punct	_	OrigDep=Ponct
 111	s	sa	ADP	Prep	_	112	case	_	OrigDep=DepNPrep
 112	glavama	glava	NOUN	N_com_ins_pl_f	Case=Ins|Gender=Fem|Number=Plur	109	nmod	_	OrigDep=ComplPrep|OrigFeats=c:ins;g:f;n:pl
-113	naniže	naniže	ADV	Adv_gen_pos	Degree=Pos	112	DepEx_DepVAdv	_	OrigDep=DepEx_DepVAdv
+113	naniže	naniže	ADV	Adv_gen_pos	Degree=Pos	112	advmod	_	OrigDep=DepEx_DepVAdv
 114	ili	ili	CCONJ	C_coord	_	118	cc	_	OrigDep=ConjCoord
 115	u	u	ADP	Prep	_	118	case	_	OrigDep=Coord
 116	nekim	neki	DET	A_indef_loc_pl_n_-	Case=Loc|Gender=Neut|Number=Plur	118	det	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:n;n:pl
@@ -11072,7 +11072,7 @@
 139	cizelirani	cizeliran	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	140	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
 140	budilnici	budilnik	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:pl
 141	kao	kao	SCONJ	C_sub	_	142	case	_	OrigDep=Sub
-142	jabuka	jabuka	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	140	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg
+142	jabuka	jabuka	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	140	nmod	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg
 143	od	od	ADP	Prep	_	144	case	_	OrigDep=DepNPrep
 144	zlata	zlato	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	142	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 145	,	,	PUNCT	Z	_	144	punct	_	OrigDep=Ponct
@@ -11082,7 +11082,7 @@
 149	kao	kao	SCONJ	C_sub	_	152	case	_	OrigDep=Sub
 150	savijeni	savijen	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	152	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
 151	pogrebni	pogreban	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	152	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
-152	barjaci	barjak	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	148	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:pl|SpaceAfter=No
+152	barjaci	barjak	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	148	nmod	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:pl|SpaceAfter=No
 153	,	,	PUNCT	Z	_	152	punct	_	OrigDep=Ponct
 154	šareni	šaren	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	157	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
 155	demodirani	demodiran	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	157	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
@@ -11168,7 +11168,7 @@
 235	žuti	žut	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	236	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
 236	koferi	kofer	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:pl
 237	i	i	CCONJ	C_coord	_	238	cc	_	OrigDep=ConjCoord
-238	neseseri	neseser	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:pl
+238	neseseri	neseser	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	236	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:pl
 239	koji	koji	PRON	P_rel_-_pl_m_nom	Case=Nom|Gender=Masc|Number=Plur	241	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 240	još	još	ADV	Adv_gen_pos	Degree=Pos	241	advmod	_	OrigDep=DepVAdv
 241	mirišu	mirisati	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	236	acl:relcl	_	OrigDep=PredRel|OrigFeats=n:pl;t:pres;r:3
@@ -11251,13 +11251,13 @@
 318	na	na	ADP	Prep	_	319	case	_	OrigDep=DepVPrep
 319	dlanu	dlan	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	315	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 320	,	,	PUNCT	Z	_	319	punct	_	OrigDep=Ponct
-321	kao	kao	SCONJ	C_sub	_	315	Sub	_	OrigDep=Sub
+321	kao	kao	SCONJ	C_sub	_	328	case	_	OrigDep=Sub
 322	tek	tek	ADV	Adv_gen_pos	Degree=Pos	323	advmod	_	OrigDep=DepAdjAdv
 323	snesena	snesen	ADJ	A_qual_acc_pl_n_pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	328	amod	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:n;n:pl|SpaceAfter=No
 324	,	,	PUNCT	Z	_	323	punct	_	OrigDep=Ponct
 325	još	još	ADV	Adv_gen_pos	Degree=Pos	326	advmod	_	OrigDep=DepAdjAdv
 326	topla	topao	ADJ	A_qual_acc_pl_n_pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	323	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:n;n:pl
 327	pačja	pačji	ADJ	A_qual_acc_pl_n_pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	328	amod	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:n;n:pl
-328	jaja	jaje	NOUN	N_com_acc_pl_n	Case=Acc|Gender=Neut|Number=Plur	321	DepEx_ObjDir	_	OrigDep=DepEx_ObjDir|OrigFeats=c:acc;g:n;n:pl|SpaceAfter=No
+328	jaja	jaje	NOUN	N_com_acc_pl_n	Case=Acc|Gender=Neut|Number=Plur	315	obl	_	OrigDep=DepEx_ObjDir|OrigFeats=c:acc;g:n;n:pl|SpaceAfter=No
 329	.	.	PUNCT	Z	_	328	punct	_	OrigDep=Ponct
 

@@ -479,16 +479,16 @@
 1	Neko	neko	PRON	P_indef_-_-_-_nom	Case=Nom	2	nsubj	_	OrigDep=Suj|OrigFeats=c:nom
 2	reče	reći	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:aor;r:3|SpaceAfter=No
 3	:	:	PUNCT	Z	_	2	punct	_	OrigDep=Ponct
-4	«	«	PUNCT	Z	_	2	punct	_	OrigDep=Ponct
-5	I	i	CCONJ	C_coord	_	2	Cit	_	OrigDep=Cit
-6	tako	tako	ADV	Adv_gen_pos	Degree=Pos	5	DepEx_DepVAdv	_	OrigDep=DepEx_DepVAdv
-7	redom	redom	NOUN	N_com_ins_sg_m	Case=Ins|Gender=Masc|Number=Sing	5	DepEx_DepVCas	_	OrigDep=DepEx_DepVCas|OrigFeats=c:ins;g:m;n:sg|SpaceAfter=No
+4	«	«	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
+5	I	i	CCONJ	C_coord	_	7	cc	_	OrigDep=Cit
+6	tako	tako	ADV	Adv_gen_pos	Degree=Pos	7	advmod	_	OrigDep=DepEx_DepVAdv
+7	redom	redom	NOUN	N_com_ins_sg_m	Case=Ins|Gender=Masc|Number=Sing	2	ccomp	_	OrigDep=DepEx_DepVCas|OrigFeats=c:ins;g:m;n:sg|SpaceAfter=No
 8	,	,	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
-9	dok	dok	SCONJ	C_sub	_	5	DepEx_Sub	_	OrigDep=DepEx_Sub
+9	dok	dok	SCONJ	C_sub	_	13	mark	_	OrigDep=DepEx_Sub
 10	reda	red	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	13	obl:arg	_	OrigDep=SujLog|OrigFeats=c:gen;g:m;n:sg
 11	više	više	ADV	Adv_gen_pos	Degree=Pos	13	advmod	_	OrigDep=DepVAdv
 12	ne	ne	PART	Part	Polarity=Neg	13	advmod	_	OrigDep=Neg
-13	bude	biti	AUX	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	PredSub	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
+13	bude	biti	AUX	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
 # sent_id = 24
@@ -530,7 +530,7 @@
 11	neku	neki	DET	A_indef_acc_sg_f_-	Case=Acc|Gender=Fem|Number=Sing	14	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
 12	dotle	dotle	ADV	Adv_gen_pos	Degree=Pos	13	advmod	_	OrigDep=DepAdjAdv
 13	nepoznatu	nepoznat	ADJ	A_qual_acc_sg_f_pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
-14	muku	muka	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg
+14	muku	muka	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg
 15	i	i	CCONJ	C_coord	_	16	cc	_	OrigDep=ConjCoord
 16	komešanje	komešanje	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	14	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:n;n:sg
 17	u	u	ADP	Prep	_	18	case	_	OrigDep=DepNPrep
@@ -601,7 +601,7 @@
 51	,	,	PUNCT	Z	_	50	punct	_	OrigDep=Ponct
 52	kao	kao	SCONJ	C_sub	_	54	case	_	OrigDep=Sub
 53	posle	posle	ADP	Prep	_	54	case	_	OrigDep=DepEx_DepVPrep
-54	purgarola	purgarol	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	45	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
+54	purgarola	purgarol	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	38	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 55	.	.	PUNCT	Z	_	54	punct	_	OrigDep=Ponct
 
 # sent_id = 27
@@ -629,7 +629,7 @@
 21	sasvim	sasvim	ADV	Adv_gen_pos	Degree=Pos	20	advmod	_	OrigDep=DepVAdv
 22	opravdanost	opravdanost	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg
 23	i	i	ADV	Part	_	25	advmod:emph	_	OrigDep=Emph
-24	one	onaj	DET	A_dem_acc_pl_m_-	Case=Acc|Gender=Masc|Number=Plur	25	obl	_	OrigDep=DepAdjCas|OrigFeats=c:acc;g:m;n:pl
+24	one	onaj	DET	A_dem_acc_pl_m_-	Case=Acc|Gender=Masc|Number=Plur	25	det	_	OrigDep=DepAdjCas|OrigFeats=c:acc;g:m;n:pl
 25	navedene	navedena	NOUN	N_com_acc_pl_m	Case=Acc|Gender=Masc|Number=Plur	22	nmod	_	OrigDep=DepNCas|OrigFeats=c:acc;g:m;n:pl|SpaceAfter=No
 26	)	)	PUNCT	Z	_	25	punct	_	OrigDep=Ponct|SpaceAfter=No
 27	:	:	PUNCT	Z	_	25	punct	_	OrigDep=Ponct
@@ -1880,7 +1880,7 @@
 17	tišina	tišina	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
 18	kao	kao	SCONJ	C_sub	_	20	case	_	OrigDep=Sub
 19	u	u	ADP	Prep	_	20	case	_	OrigDep=DepEx_DepNPrep
-20	grobu	grob	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	17	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
+20	grobu	grob	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	OrigDep=Ponct
 
 # sent_id = 69
@@ -3650,7 +3650,7 @@
 54	plodnost	plodnost	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	50	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:f;n:sg
 55	kao	kao	SCONJ	C_sub	_	57	case	_	OrigDep=Sub
 56	u	u	ADP	Prep	_	57	case	_	OrigDep=DepEx_DepVPrep
-57	bikova	bik	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	54	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
+57	bikova	bik	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	54	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 58	,	,	PUNCT	Z	_	57	punct	_	OrigDep=Ponct
 59	pa	pa	CCONJ	C_coord	_	64	cc	_	OrigDep=ConjCoord
 60	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	64	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -4586,7 +4586,7 @@
 68	kao	kao	SCONJ	C_sub	_	71	case	_	OrigDep=Sub
 69	na	na	ADP	Prep	_	71	case	_	OrigDep=DepEx_DepVPrep
 70	nadgrobnim	nadgrobni	ADJ	A_qual_loc_pl_f_pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	71	amod	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:f;n:pl
-71	pločama	ploča	NOUN	N_com_loc_pl_f	Case=Loc|Gender=Fem|Number=Plur	67	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:pl
+71	pločama	ploča	NOUN	N_com_loc_pl_f	Case=Loc|Gender=Fem|Number=Plur	67	nmod	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:pl
 72	i	i	CCONJ	C_coord	_	73	cc	_	OrigDep=ConjCoord
 73	cimerima	cimer	NOUN	N_com_loc_pl_m	Case=Loc|Gender=Masc|Number=Plur	71	conj	_	OrigDep=Coord|OrigFeats=c:loc;g:m;n:pl|SpaceAfter=No
 74	.	.	PUNCT	Z	_	73	punct	_	OrigDep=Ponct
