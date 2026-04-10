@@ -29,12 +29,12 @@ Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: TO-BE-SPECIFIED
-Lemmas: manual native
-UPOS: manual native
-XPOS: not available
-Features: manual native
-Relations: manual native
+Genre: fiction
+Lemmas: converted from manual
+UPOS: converted with corrections
+XPOS: manual native
+Features: converted with corrections
+Relations: converted with corrections
 Contributors: Miletić, Aleksandra
 Contributing: here
 Contact: aleksandra.miletic-haddad@cnrs.fr
