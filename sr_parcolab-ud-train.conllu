@@ -432,8 +432,8 @@
 1	Puške	puška	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl
 2	smo	jesam	AUX	V_aux_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:1
 3	vukli	vući	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:pl;t:partact
-4	kao	kao	SCONJ	C_sub	_	3	Sub	_	OrigDep=Sub
-5	cepanice	cepanica	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	4	DepEx_ObjDir	_	OrigDep=DepEx_ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
+4	kao	kao	SCONJ	C_sub	_	5	case	_	OrigDep=Sub
+5	cepanice	cepanica	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	OrigDep=DepEx_ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 6	;	;	PUNCT	Z	_	5	punct	_	OrigDep=Ponct
 7	neki	neki	PRON	P_indef_-_pl_m_nom	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 8	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
