@@ -720,7 +720,7 @@
 21	vezu	veza	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 22	,	,	PUNCT	Z	_	21	punct	_	OrigDep=Ponct
 23	njeni	njen	DET	A_pos_nom_pl_m_-	Case=Nom|Gender=Masc|Number=Plur	26	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
-24	su	jesu	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
+24	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
 25	mi	ja	PRON	P_pers_1_sg_-_dat	Case=Dat|Number=Sing|Person=1	27	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;n:sg;r:1
 26	roditelji	roditelj	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 27	dali	dati	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:pl;t:partact
@@ -3905,7 +3905,7 @@
 # sent_id = 137
 # text = Onda sam ja počeo s užasom kajanja da joj se zaklinjem da se to nikada neće dogoditi i da proklinjem u sebi trenutak kada je gospođica Edit ušla u našu kuću.
 1	Onda	onda	ADV	Adv_gen_pos	Degree=Pos	4	advmod	_	OrigDep=DepVAdv
-2	sam	sam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
+2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
 3	ja	ja	PRON	P_pers_1_sg_-_nom	Case=Nom|Number=Sing|Person=1	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;n:sg;r:1
 4	počeo	početi	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 5	s	sa	ADP	Prep	_	6	case	_	OrigDep=DepVPrep
@@ -5322,7 +5322,7 @@
 27	stvari	stvar	NOUN	N_com_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg
 28	i	i	CCONJ	C_coord	_	33	cc	_	OrigDep=ConjCoord
 29	niko	niko	PRON	P_indef_-_-_-_nom	Case=Nom	33	nsubj	_	OrigDep=Suj|OrigFeats=c:nom
-30	ih	oni	PRON	P_pers_3_pl_f_acc	Case=Acc|Gender=Fem|Number=Plur|Person=3	33	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl;r:3
+30	ih	oni	PRON	P_pers_3_pl_f_acc	Case=Acc|Gender=Fem|Number=Plur|Person=3	33	iobj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl;r:3
 31	ništa	ništa	PRON	P_indef_-_-_-_acc	Case=Acc	33	obj	_	OrigDep=ObjDir|OrigFeats=c:acc
 32	ne	ne	PART	Part	Polarity=Neg	33	advmod	_	OrigDep=Neg
 33	pita	pitati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	OrigDep=Coord|OrigFeats=n:sg;t:pres;r:3
@@ -5704,7 +5704,7 @@
 25	noći	noć	NOUN	N_com_voc_sg_f	Case=Voc|Gender=Fem|Number=Sing	12	conj	_	OrigDep=Coord|OrigFeats=c:voc;g:f;n:sg|SpaceAfter=No
 26	!	!	PUNCT	Z	_	25	punct	_	OrigDep=Ponct
 
-# sent_id = 1
+# sent_id = 201
 # text = I on reče: « Vi ste moji.
 1	I	i	CCONJ	C_coord	_	3	cc	_	OrigDep=Root
 2	on	on	PRON	P_pers_3_sg_m_nom	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg;r:3
@@ -5716,7 +5716,7 @@
 8	moji	moj	DET	A_pos_nom_pl_m_-	Case=Nom|Gender=Masc|Number=Plur	3	ccomp	_	OrigDep=PredicNom|OrigFeats=c:nom;g:m;n:pl|SpaceAfter=No
 9	.	.	PUNCT	Z	_	8	punct	_	OrigDep=Ponct
 
-# sent_id = 2
+# sent_id = 202
 # text = Uskoro svu brigu o uhođenju mog oca uzimaju na sebe « žene trećeg reda », seoske sumanute bogomoljke koje su sa svojih zasluga nosile oko struka konopac sa tri golema čvora, bigotne udovice koje su gasile pakao svojih raspaljenih bedara molitvom i postom, glavoboljne i histerične ženetine koje su svoju upaljenost pretvarale u religiozni trans i sujeverje.
 1	Uskoro	uskoro	ADV	Adv_gen_pos	Degree=Pos	8	advmod	_	OrigDep=DepVAdv
 2	svu	sav	DET	A_indef_acc_sg_f_-	Case=Acc|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
@@ -5780,7 +5780,7 @@
 60	sujeverje	sujeverje	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	58	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
 61	.	.	PUNCT	Z	_	60	punct	_	OrigDep=Ponct
 
-# sent_id = 3
+# sent_id = 203
 # text = Nestadoše sve razlike među nama.
 1	Nestadoše	nestati	VERB	V_main_aor_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:aor;r:3
 2	sve	sav	DET	A_indef_nom_pl_f_-	Case=Nom|Gender=Fem|Number=Plur	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:pl
@@ -5789,7 +5789,7 @@
 5	nama	mi	PRON	P_pers_1_pl_-_ins	Case=Ins|Number=Plur|Person=1	3	nmod	_	OrigDep=ComplPrep|OrigFeats=c:ins;n:pl;r:1|SpaceAfter=No
 6	.	.	PUNCT	Z	_	5	punct	_	OrigDep=Ponct
 
-# sent_id = 4
+# sent_id = 204
 # text = Tako sam brojao do dvesta, pa opet do dvesta.
 1	Tako	tako	ADV	Adv_gen_pos	Degree=Pos	3	advmod	_	OrigDep=DepVAdv
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -5803,7 +5803,7 @@
 10	dvesta	dvesta	NUM	Num_card_-_-_-	_	5	conj	_	OrigDep=ComplPrep|SpaceAfter=No
 11	.	.	PUNCT	Z	_	10	punct	_	OrigDep=Ponct
 
-# sent_id = 5
+# sent_id = 205
 # text = Uvlačeći se unutra, gotovo na trbuhu (noge su se vukle za njim kao oduzete) osetio se kao da silazi u grob.
 1	Uvlačeći	uvlačiti	VERB	V_main_partpres_-_-_-_-	Tense=Pres|VerbForm=Conv	18	advcl	_	OrigDep=DepVPart|OrigFeats=t:partpres
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	1	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -5831,7 +5831,7 @@
 24	grob	grob	NOUN	N_com_acc_sg_m	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:m;n:sg|SpaceAfter=No
 25	.	.	PUNCT	Z	_	24	punct	_	OrigDep=Ponct
 
-# sent_id = 6
+# sent_id = 206
 # text = Možda individue nastaju tek u gradu i drugde, idući tužnim putem nestanka?
 1	Možda	možda	ADV	Part	_	3	advmod	_	OrigDep=ExtraPred
 2	individue	individua	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:pl
@@ -5848,7 +5848,7 @@
 13	nestanka	nestanak	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 14	?	?	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
-# sent_id = 7
+# sent_id = 207
 # text = Ovako su bar naši rođaci tumačili očevu kraljevsku ravnodušnost.
 1	Ovako	ovako	ADV	Adv_gen_pos	Degree=Pos	6	advmod	_	OrigDep=DepVAdv
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -5861,7 +5861,7 @@
 9	ravnodušnost	ravnodušnost	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 10	.	.	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 8
+# sent_id = 208
 # text = S one strane čuje se zveckanje ključeva i otac izgovara svoje ime patetično, kao što se izgovaraju imena proroka.
 1	S	sa	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	one	onaj	DET	A_dem_gen_sg_f_-	Case=Gen|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:f;n:sg
@@ -5885,7 +5885,7 @@
 20	proroka	prorok	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	OrigDep=Ponct
 
-# sent_id = 9
+# sent_id = 209
 # text = Na drugom krilu vrata vodi se kampanja, puna zaslepljujućih obećanja, u korist imalina marke Schmoll.
 1	Na	na	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	drugom	drugi	NUM	Num_ord_n_sg_loc	Case=Loc|Gender=Neut|Number=Sing	3	nummod	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:n;n:sg
@@ -5906,7 +5906,7 @@
 17	Schmoll	Schmoll	X	X	_	16	flat	_	OrigDep=Ap|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 10
+# sent_id = 210
 # text = Sedela je na trešnjevom tronošcu koji je još njen muž napravio, naša ga tela uglačala, a vreme okamenilo.
 1	Sedela	sedeti	VERB	V_main_partact_-_sg_f_-	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:f;n:sg;t:partact
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -5930,7 +5930,7 @@
 20	okamenilo	okameniti	VERB	V_main_partact_-_sg_n_-	Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	11	conj	_	OrigDep=Coord|OrigFeats=g:n;n:sg;t:partact|SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	OrigDep=Ponct
 
-# sent_id = 11
+# sent_id = 211
 # text = Bio je očigledno zbunjen ovakvim mojim ponašanjem, sasvim izvan okvira protokola.
 1	Bio	biti	AUX	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	cop	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -5946,7 +5946,7 @@
 12	protokola	protokol	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 12
+# sent_id = 212
 # text = Taj predeo, znao sam, morao je biti samo predvorje drugog predela, makar staza kojom sam išao bila i kružna.
 1	Taj	taj	DET	A_dem_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	2	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
 2	predeo	predeo	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
@@ -5972,7 +5972,7 @@
 22	kružna	kružan	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	advcl	_	OrigDep=PredicNom|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 23	.	.	PUNCT	Z	_	22	punct	_	OrigDep=Ponct
 
-# sent_id = 13
+# sent_id = 213
 # text = Osu se nebo zvezdama, zaplamsaše baklje, drveće se nagnu i zamaha krošnjama; neke belolike žene sa raspletenim plavim kosama zaigraše na proplanku i zapevaše tiho, umiljato.
 1	Osu	osuti	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:aor;r:3
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	1	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -6006,7 +6006,7 @@
 30	umiljato	umiljato	ADV	Adv_gen_pos	Degree=Pos	27	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 14
+# sent_id = 214
 # text = Na prvom konačištu zapisaću pesmu o tome...
 1	Na	na	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	prvom	prvi	NUM	Num_ord_n_sg_loc	Case=Loc|Gender=Neut|Number=Sing	3	nummod	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:n;n:sg
@@ -6017,7 +6017,7 @@
 7	tome	taj	PRON	P_dem_-_sg_n_loc	Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:n;n:sg|SpaceAfter=No
 8	...	...	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 15
+# sent_id = 215
 # text = Kažem poslednji korak, jer se ne usuđujem da priznam da je i to bio samo deo mog plana, smišljenog i bez improvizacije, ono dakle što se u rečniku religije i pravosuđa naziva predumišljaj.
 1	Kažem	kazati	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:1
 2	poslednji	poslednji	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -6057,7 +6057,7 @@
 36	predumišljaj	predumišljaj	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	35	xcomp	_	OrigDep=PredicComplSuj|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 37	.	.	PUNCT	Z	_	36	punct	_	OrigDep=Ponct
 
-# sent_id = 16
+# sent_id = 216
 # text = Na jedno oko sam slep, na drugo jedva nešto nazirem; svetlost mi je tamna, noć mi nejasno svetluca.
 1	Na	na	ADP	Prep	_	3	case	_	OrigDep=DepAdjPrep
 2	jedno	jedan	NUM	Num_card_n_sg_acc	Case=Acc|Gender=Neut|Number=Sing	3	nummod	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:n;n:sg
@@ -6082,7 +6082,7 @@
 21	svetluca	svetlucati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	OrigDep=Coord|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 22	.	.	PUNCT	Z	_	21	punct	_	OrigDep=Ponct
 
-# sent_id = 17
+# sent_id = 217
 # text = Njegova nema opomena baca me u tamu najdubljeg očajanja, na rub ludila.
 1	Njegova	njegov	DET	A_pos_nom_sg_f_-	Case=Nom|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
 2	nema	nem	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
@@ -6099,7 +6099,7 @@
 13	ludila	ludilo	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
-# sent_id = 18
+# sent_id = 218
 # text = Gospodin Gavanski, vegetarijanac, dolazio je bučno, hukćući, pušeći se kao vrela viršla, hladan od snežne zimske večeri, koju je unosio u našu sobu pregrštima, ili je gurao pred sobom kao grudvu snega.
 1	Gospodin	gospodin	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 2	Gavanski	Gavanski	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	OrigDep=DepNCas|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
@@ -6142,7 +6142,7 @@
 39	snega	sneg	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 40	.	.	PUNCT	Z	_	39	punct	_	OrigDep=Ponct
 
-# sent_id = 19
+# sent_id = 219
 # text = Šta da im radimo kad im je tako bilo suđeno?
 1	Šta	šta	PRON	P_inter_-_-_-_acc	Case=Acc	4	obj	_	OrigDep=ObjDir|OrigFeats=c:acc
 2	da	da	SCONJ	C_sub	_	4	mark	_	OrigDep=Root
@@ -6156,7 +6156,7 @@
 10	suđeno	suditi	VERB	V_main_partpass_-_sg_n_-	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Conv	4	advcl	_	OrigDep=PredSub|OrigFeats=g:n;n:sg;t:partpass|SpaceAfter=No
 11	?	?	PUNCT	Z	_	10	punct	_	OrigDep=Ponct
 
-# sent_id = 20
+# sent_id = 220
 # text = Sve se ponavljalo i sve je bilo isto kao da se vreme skoturilo i ujeda sebe za rep.
 1	Sve	sav	PRON	P_indef_-_sg_n_nom	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	3	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -6178,7 +6178,7 @@
 18	rep	rep	NOUN	N_com_acc_sg_m	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:m;n:sg|SpaceAfter=No
 19	.	.	PUNCT	Z	_	18	punct	_	OrigDep=Ponct
 
-# sent_id = 21
+# sent_id = 221
 # text = Zašto nije poguren, spečen, podmukao i ružan kao mi?
 1	Zašto	zašto	ADV	Adv_inter_-	_	3	advmod	_	OrigDep=DepVAdv
 2	nije	jesam	AUX	V_main_pres_3_sg_-_neg	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:3
@@ -6193,7 +6193,7 @@
 11	mi	mi	PRON	P_pers_1_pl_-_nom	Case=Nom|Number=Plur|Person=1	3	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;n:pl;r:1|SpaceAfter=No
 12	?	?	PUNCT	Z	_	11	punct	_	OrigDep=Ponct
 
-# sent_id = 22
+# sent_id = 222
 # text = Bio je povređen njegov ponos hipohondrika i promašena čoveka.
 1	Bio	biti	AUX	V_aux_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	aux	_	OrigDep=AuxV|OrigFeats=g:m;n:sg;t:partact
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -6206,7 +6206,7 @@
 9	čoveka	čovek	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 10	.	.	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 23
+# sent_id = 223
 # text = Na Širokom Potoku je kad i na Pakincu, istovremeno obilazi Jazvine i Karaule, spava u Ridu, budi se na Porodinu, a već je nekako na Goloboku.
 1	Na	na	ADP	Prep	_	3	case	_	OrigDep=PredicAdv
 2	Širokom	širok	ADJ	A_qual_loc_sg_m_pos	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:m;n:sg
@@ -6240,7 +6240,7 @@
 30	Goloboku	Golobok	PROPN	N_prop_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	3	conj	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 24
+# sent_id = 224
 # text = I taj nečujni šapat (više romor i šumor, nešto kao ćarlijanje slabog vetra iz neznani) obiđe čitav Kao, preskoči Široki Potok, dopre do udaljenih kuća, otključa brave, skoturi se oko ognjišta, pogasi vatre ispod kotlova i zaustavi vodu da ne struji.
 1	I	i	CCONJ	C_coord	_	19	cc	_	OrigDep=Root
 2	taj	taj	DET	A_dem_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	4	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -6293,7 +6293,7 @@
 49	struji	strujiti	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	advcl	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 50	.	.	PUNCT	Z	_	49	punct	_	OrigDep=Ponct
 
-# sent_id = 25
+# sent_id = 225
 # text = Stvari smo držali spakovane u koferima, a čaj smo pili iz termosa.
 1	Stvari	stvar	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl
 2	smo	jesam	AUX	V_aux_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:1
@@ -6310,7 +6310,7 @@
 13	termosa	termos	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
-# sent_id = 26
+# sent_id = 226
 # text = Ili mu je svejedno ko smo i šta radimo?
 1	Ili	ili	CCONJ	C_coord	_	4	cc	_	OrigDep=Root
 2	mu	on	PRON	P_pers_3_sg_m_dat	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	OrigDep=DepAdvCas|OrigFeats=c:dat;g:m;n:sg;r:3
@@ -6323,7 +6323,7 @@
 9	radimo	raditi	VERB	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	OrigDep=Coord|OrigFeats=n:pl;t:pres;r:1|SpaceAfter=No
 10	?	?	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 27
+# sent_id = 227
 # text = Rizničaru odsekosmo jezik da ne kaže gde su tajne riznice, ako slučajno preživi; obeshrabrene osokolismo, izljubismo se i oprostismo.
 1	Rizničaru	rizničar	NOUN	N_com_dat_sg_m	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:m;n:sg
 2	odsekosmo	odseći	VERB	V_main_aor_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:aor;r:1
@@ -6349,7 +6349,7 @@
 22	oprostismo	oprostiti	VERB	V_main_aor_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	17	conj	_	OrigDep=Coord|OrigFeats=n:pl;t:aor;r:1|SpaceAfter=No
 23	.	.	PUNCT	Z	_	22	punct	_	OrigDep=Ponct
 
-# sent_id = 28
+# sent_id = 228
 # text = Što smo videli — nismo videli, što smo čuli — nismo čuli.
 1	Što	što	PRON	P_rel_-_-_-_acc	Case=Acc	3	obj	_	OrigDep=ObjDir|OrigFeats=c:acc
 2	smo	jesam	AUX	V_aux_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:1
@@ -6366,7 +6366,7 @@
 13	čuli	čuti	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	6	conj	_	OrigDep=Coord|OrigFeats=g:m;n:pl;t:partact|SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
-# sent_id = 29
+# sent_id = 229
 # text = Niko nam neće poslati pomoć ni pojačanje.
 1	Niko	niko	PRON	P_indef_-_-_-_nom	Case=Nom	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom
 2	nam	mi	PRON	P_pers_1_pl_-_dat	Case=Dat|Number=Plur|Person=1	4	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;n:pl;r:1
@@ -6377,7 +6377,7 @@
 7	pojačanje	pojačanje	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 30
+# sent_id = 230
 # text = Došao je mlad, lep i zdrav i svetlih očiju; mi smo ga odmah namrzli.
 1	Došao	doći	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -6397,7 +6397,7 @@
 16	namrzli	namrznuti	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	1	parataxis	_	OrigDep=Juxt|OrigFeats=g:m;n:pl;t:partact|SpaceAfter=No
 17	.	.	PUNCT	Z	_	16	punct	_	OrigDep=Ponct
 
-# sent_id = 31
+# sent_id = 231
 # text = I nikada se ništa ne zbiva, tišina leži preko svega, steže i guši; usta i pluća puna su mi tišine.
 1	I	i	CCONJ	C_coord	_	6	cc	_	OrigDep=Root
 2	nikada	nikada	ADV	Adv_indef_-	_	6	advmod	_	OrigDep=DepVAdv
@@ -6424,7 +6424,7 @@
 23	tišine	tišina	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	OrigDep=DepAdjCas|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 24	.	.	PUNCT	Z	_	23	punct	_	OrigDep=Ponct
 
-# sent_id = 32
+# sent_id = 232
 # text = On pomisli: « Ne čujem ni ja vas.
 1	On	on	PRON	P_pers_3_sg_m_nom	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg;r:3
 2	pomisli	pomisliti	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:aor;r:3|SpaceAfter=No
@@ -6437,7 +6437,7 @@
 9	vas	vi	PRON	P_pers_2_pl_-_acc	Case=Acc|Number=Plur|Person=2	6	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;n:pl;r:2|SpaceAfter=No
 10	.	.	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 33
+# sent_id = 233
 # text = Istina, moja majka i ja, ne razumevajući uvek sasvim dobro jezik originala, prevodili smo neke stihove slobodno, vođeni katkad samo zvučnošću reči, izgubljeni u arhaizmima koji ili ništa više nisu značili ili su imali sasvim drugo značenje od današnjeg, pa kada bismo uporedili svoje prevode, bilo je vrlo smešnih razlika, a bez sumnje i omaški.
 1	Istina	istina	ADV	Part	_	16	advmod	_	OrigDep=ExtraPred|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -6504,7 +6504,7 @@
 63	omaški	omaška	NOUN	A_qual_nom_pl_f_pos	Case=Nom|Gender=Fem|Number=Plur	57	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:pl|SpaceAfter=No
 64	.	.	PUNCT	Z	_	63	punct	_	OrigDep=Ponct
 
-# sent_id = 34
+# sent_id = 234
 # text = Inače, bio sam četiri ili pet puta ranjen, nekoliko puta unapređivan, tri puta ražalovan (zbog pića i krađa, i to nepravedno), dva puta odlikovan i jednom streljan, ne sećam se tačno zbog čega.
 1	Inače	inače	ADV	Part	_	9	advmod	_	OrigDep=ExtraPred|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -6549,7 +6549,7 @@
 41	čega	šta	PRON	P_inter_-_-_-_gen	Case=Gen	37	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen|SpaceAfter=No
 42	.	.	PUNCT	Z	_	41	punct	_	OrigDep=Ponct
 
-# sent_id = 35
+# sent_id = 235
 # text = To će zauvek ostati tajna.
 1	To	taj	PRON	P_dem_-_sg_n_nom	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	će	hteti	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -6558,7 +6558,7 @@
 5	tajna	tajna	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	4	xcomp	_	OrigDep=PredicComplSuj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 6	.	.	PUNCT	Z	_	5	punct	_	OrigDep=Ponct
 
-# sent_id = 36
+# sent_id = 236
 # text = Uveče, kada legnemo, moj otac puši u mraku i vidim kako oko njegove glave obleće zažareni svitac, blistava mušica njegova genija.
 1	Uveče	uveče	ADV	Adv_gen_pos	Degree=Pos	8	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -6586,7 +6586,7 @@
 24	genija	genije	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 25	.	.	PUNCT	Z	_	24	punct	_	OrigDep=Ponct
 
-# sent_id = 37
+# sent_id = 237
 # text = Vreme je nešto neodređeno, tečno i neuhvatljivo, a pri tom stvarno, moćno i samorodno.
 1	Vreme	vreme	NOUN	N_com_nom_sg_n	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	je	jesam	AUX	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:3
@@ -6607,7 +6607,7 @@
 17	samorodno	samorodan	ADJ	A_qual_nom_sg_n_pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:n;n:sg|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 38
+# sent_id = 238
 # text = Otpali su balasti teških eruditnih materijala, naučni aparat od antiteze do teze, od teze do dokaza postao je lak, skoro neosetan, oplemenjen mirisom šumske smole, a quod erat demonstrandum padao je na pravom mestu i u pravom trenutku, kao žir sa drveta, dok su lažne i nedovoljno dokazljive istine venule kao grane i otpadale sa treskom, opominjući na razumnost i meru.
 1	Otpali	otpasti	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:pl;t:partact
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -6680,7 +6680,7 @@
 69	meru	mera	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	67	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 70	.	.	PUNCT	Z	_	69	punct	_	OrigDep=Ponct
 
-# sent_id = 39
+# sent_id = 239
 # text = Porodila sam se i njega opet nije bilo; otišao je s prvim lepim danima posle zime.
 1	Porodila	poroditi	VERB	V_main_partact_-_sg_f_-	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:f;n:sg;t:partact
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -6701,7 +6701,7 @@
 17	zime	zima	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 40
+# sent_id = 240
 # text = Kolins podiže lampu visoko iznad sebe i osmotri devojku.
 1	Kolins	Kolins	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 2	podiže	podići	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:aor;r:3
@@ -6714,7 +6714,7 @@
 9	devojku	devojka	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 10	.	.	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 41
+# sent_id = 241
 # text = I dok sam tako rastužen kunjao pod kožnom šatrom fijakera, umoran i željan ipak pravog sna, dok je kočijaš zamahivao bičem a konji ispuštali vetrove, moja je sestra Ana tiho plakala.
 1	I	i	CCONJ	C_coord	_	34	cc	_	OrigDep=Root
 2	dok	dok	SCONJ	C_sub	_	6	mark	_	OrigDep=Sub
@@ -6752,7 +6752,7 @@
 34	plakala	plakati	VERB	V_main_partact_-_sg_f_-	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Coord|OrigFeats=g:f;n:sg;t:partact|SpaceAfter=No
 35	.	.	PUNCT	Z	_	34	punct	_	OrigDep=Ponct
 
-# sent_id = 42
+# sent_id = 242
 # text = Kad se okretoh, moj sin je ležao na okrvavljenom snegu: metak ga je pogodio u čelo, razmrskao mu lobanju.
 1	Kad	kada	SCONJ	C_sub	_	3	mark	_	OrigDep=Sub
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	3	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -6778,7 +6778,7 @@
 22	lobanju	lobanja	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 23	.	.	PUNCT	Z	_	22	punct	_	OrigDep=Ponct
 
-# sent_id = 43
+# sent_id = 243
 # text = Izlokani Preki Put (koji spaja sve krajeve i sve porodice) kao da nikuda ne vodi, kao da se vraća; bez početka, on ide prema početku.
 1	Izlokani	izlokan	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
 2	Preki	prek	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -6812,7 +6812,7 @@
 30	početku	početak	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	28	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 44
+# sent_id = 244
 # text = Ljudi su bežali jedni od drugih jer su znali šta misle; spori i neoprezni su bivali ubijani i malo kasnije smo nalazili njihove oglodane kosti.
 1	Ljudi	ljudi	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -6842,7 +6842,7 @@
 26	kosti	kost	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	23	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 27	.	.	PUNCT	Z	_	26	punct	_	OrigDep=Ponct
 
-# sent_id = 45
+# sent_id = 245
 # text = Kad su najgora vremena, neka i.
 1	Kad	kada	SCONJ	C_sub	_	3	mark	_	OrigDep=Sub
 2	su	jesam	AUX	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	OrigDep=PredSub|OrigFeats=n:pl;t:pres;r:3
@@ -6853,7 +6853,7 @@
 7	i	i	PRON	P_pers_3_pl_n_gen	Case=Gen|Gender=Neut|Number=Plur|Person=3	6	obl	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:n;n:pl;r:3|SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 46
+# sent_id = 246
 # text = U srušenoj kući ispod stare tvrđave (tamo gde se rodio Sveti Dimitrije, svetac nekih od nas) stanuje starac derviš, slep, ćelav i bradat, smežuran kao orah, malen od starosti, sa izlizanim brojanicama u rukama.
 1	U	u	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	srušenoj	srušen	ADJ	A_qual_loc_sg_f_pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:f;n:sg
@@ -6899,7 +6899,7 @@
 42	rukama	ruka	NOUN	N_com_loc_pl_f	Case=Loc|Gender=Fem|Number=Plur	40	nmod	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:pl|SpaceAfter=No
 43	.	.	PUNCT	Z	_	42	punct	_	OrigDep=Ponct
 
-# sent_id = 47
+# sent_id = 247
 # text = Imamo samo jedne Zadušnice.
 1	Imamo	imati	VERB	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:1
 2	samo	samo	ADV	Part	_	3	advmod:emph	_	OrigDep=Emph
@@ -6907,7 +6907,7 @@
 4	Zadušnice	Zadušnice	PROPN	N_prop_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 5	.	.	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 
-# sent_id = 48
+# sent_id = 248
 # text = Sakupiću dakle na gomilu sve te razglednice, tu epohu punu starinskog sjaja i romantičnosti, pomešaću svoje karte, zatim ću ih razviti u pasijansu za čitaoce koji vole pasijans i opoj, koji vole žarke boje i vrtoglavicu.
 1	Sakupiću	sakupiti	VERB	V_main_fut_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:fut;r:1
 2	dakle	dakle	ADV	Part	_	1	advmod	_	OrigDep=ExtraPred
@@ -6951,7 +6951,7 @@
 40	vrtoglavicu	vrtoglavica	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	38	conj	_	OrigDep=Coord|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 41	.	.	PUNCT	Z	_	40	punct	_	OrigDep=Ponct
 
-# sent_id = 49
+# sent_id = 249
 # text = Svečana nervoza s kojom su se moji roditelji pripremali za putovanje, zeleni pliš i čipka u kupeu, plava sijalica boje mastila koju je moj otac palio pre nego što ćemo da zaspimo i akvamarinske dubine njene svetlosti, sve je to pretvaralo putovanje u neko tiho slavlje, i zato sam uvek po povratku s putovanja bio pokunjen i, sedeći u fijakeru, u polusnu, ja sam još uvek čuo zavijanje sirena u noći i melodiozno kloparanje točkova voza.
 1	Svečana	svečan	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
 2	nervoza	nervoza	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	43	dislocated	_	OrigDep=Ap|OrigFeats=c:nom;g:f;n:sg
@@ -7038,7 +7038,7 @@
 83	voza	voz	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	82	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 84	.	.	PUNCT	Z	_	83	punct	_	OrigDep=Ponct
 
-# sent_id = 50
+# sent_id = 250
 # text = Moja sestra Ana, za dugih dosadnih popodneva oblačila je svoje haljine iz kojih je već bila davno izrasla, nameštala je dugo pred ogledalom svoju dugu tamnu kosu, praveći sebi najfantastičnije frizure, koje su, po našem mišljenju, prelazile katkad granicu pristojnosti.
 1	Moja	moj	DET	A_pos_nom_sg_f_-	Case=Nom|Gender=Fem|Number=Sing	2	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
 2	sestra	sestra	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
@@ -7088,9 +7088,9 @@
 46	pristojnosti	pristojnost	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 47	.	.	PUNCT	Z	_	46	punct	_	OrigDep=Ponct
 
-# sent_id = 51
+# sent_id = 251
 # text = Knjiga mog života, knjiga koja je ostavila u meni duboke i dalekosežne tragove, knjiga iz koje su se regrutovali fantomi mojih mora i mojih fantazija, otkriće koje je bacilo u zasenak inkriminisani očev Red vožnje, knjiga koja se upijala u moju krv i moj mozak, postepeno, godinama, između grešnih i nebuloznih članaka peštanskih ilustrovanih žurnala, između Kapetana Srebrnog zvona, Lepotice u kavezu, Čovek, konj, pas i drugih, to je bila Mala školska Biblija, izdanje Društva svetog Ištvana, « podesio za školsku mladež dr Joannes Marczell, vicarius generalis ».
-1	Knjiga	knjiga	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	81	appos	_	OrigDep=Ap|OrigFeats=c:nom;g:f;n:sg
+1	Knjiga	knjiga	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	86	dislocated	_	OrigDep=Ap|OrigFeats=c:nom;g:f;n:sg
 2	mog	moj	DET	A_pos_gen_sg_m_-	Case=Gen|Gender=Masc|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:m;n:sg
 3	života	život	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 4	,	,	PUNCT	Z	_	3	punct	_	OrigDep=Ponct
@@ -7131,7 +7131,7 @@
 39	,	,	PUNCT	Z	_	38	punct	_	OrigDep=Ponct
 40	knjiga	knjiga	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:sg
 41	koja	koji	PRON	P_rel_-_sg_f_nom	Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
-42	se	se	AUX	V_aux_impf_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:impf;r:3
+42	se	se	PRON	V_aux_impf_3_sg_-_-	Person=3	43	expl	_	OrigDep=AuxV|OrigFeats=n:sg;t:impf;r:3
 43	upijala	upijati	VERB	V_main_partact_-_sg_f_-	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	40	acl:relcl	_	OrigDep=PredRel|OrigFeats=g:f;n:sg;t:partact
 44	u	u	ADP	Prep	_	46	case	_	OrigDep=DepVPrep
 45	moju	moj	DET	A_pos_acc_sg_f_-	Case=Acc|Gender=Fem|Number=Sing	46	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
@@ -7183,20 +7183,20 @@
 91	Ištvana	Ištvan	PROPN	N_prop_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	89	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 92	,	,	PUNCT	Z	_	91	punct	_	OrigDep=Ponct
 93	«	«	PUNCT	Z	_	91	punct	_	OrigDep=Ponct
-94	podesio	podesiti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	86	conj	_	OrigDep=Coord|OrigFeats=g:m;n:sg;t:partact
+94	podesio	podesiti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	86	parataxis	_	OrigDep=Coord|OrigFeats=g:m;n:sg;t:partact
 95	za	za	ADP	Prep	_	97	case	_	OrigDep=DepVPrep
 96	školsku	školski	ADJ	A_qual_acc_sg_f_pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	97	amod	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
 97	mladež	mladež	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	94	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg
-98	dr	dr	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	99	appos	_	OrigDep=Ap|OrigFeats=c:nom;g:m;n:sg
-99	Joannes	Joannes	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	94	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
+98	dr	dr	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	94	nsubj	_	OrigDep=Ap|OrigFeats=c:nom;g:m;n:sg
+99	Joannes	Joannes	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	98	flat	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 100	Marczell	Marczell	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	99	flat	_	OrigDep=Ap|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 101	,	,	PUNCT	Z	_	100	punct	_	OrigDep=Ponct
-102	vicarius	vicarius	X	X	_	99	appos	_	OrigDep=Ap
+102	vicarius	vicarius	X	X	ExtPos=NOUN	98	appos	_	OrigDep=Ap
 103	generalis	generalis	X	X	_	102	fixed	_	OrigDep=Polylex
 104	»	»	PUNCT	Z	_	102	punct	_	OrigDep=Ponct|SpaceAfter=No
 105	.	.	PUNCT	Z	_	102	punct	_	OrigDep=Ponct
 
-# sent_id = 52
+# sent_id = 252
 # text = Sunce se katkad (jedino kad mu je to bilo dopušteno) probijalo kroz tmušu, cepalo oblake, prosijavalo maglu i dopiralo do hladnog, svačim zasejanog i nađubrenog tla koje je podrhtavalo iznutra, stišavajući magmu vulkana koji samo što nisu izbili; dubina se vazda opirala visini.
 1	Sunce	sunce	NOUN	N_com_nom_sg_n	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	13	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -7250,7 +7250,7 @@
 50	visini	visina	NOUN	N_com_dat_sg_f	Case=Dat|Gender=Fem|Number=Sing	49	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:f;n:sg|SpaceAfter=No
 51	.	.	PUNCT	Z	_	50	punct	_	OrigDep=Ponct
 
-# sent_id = 53
+# sent_id = 253
 # text = To je bio jedini veliki događaj te sezone, jedina svetlost u statusu kvo te mutne jeseni.
 1	To	taj	PRON	P_dem_-_sg_n_nom	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -7271,7 +7271,7 @@
 17	jeseni	jesen	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 54
+# sent_id = 254
 # text = Te su se večeri rodile iz ćutanja, odakle sve potiče.
 1	Te	taj	DET	A_dem_nom_pl_f_-	Case=Nom|Gender=Fem|Number=Plur	4	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:pl
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -7286,7 +7286,7 @@
 11	potiče	poticati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	OrigDep=PredRel|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 12	.	.	PUNCT	Z	_	11	punct	_	OrigDep=Ponct
 
-# sent_id = 55
+# sent_id = 255
 # text = Mada nijedan Kaljanin to nikada ne bi priznao, majke su bitnije od očeva; udovice obnavljaju satrvena naselja, žene povremeno spasavaju svet koji smo mi ugrozili.
 1	Mada	mada	SCONJ	C_sub	_	8	mark	_	OrigDep=Sub
 2	nijedan	nijedan	DET	A_indef_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -7318,7 +7318,7 @@
 28	ugrozili	ugroziti	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	24	acl:relcl	_	OrigDep=PredRel|OrigFeats=g:m;n:pl;t:partact|SpaceAfter=No
 29	.	.	PUNCT	Z	_	28	punct	_	OrigDep=Ponct
 
-# sent_id = 56
+# sent_id = 256
 # text = Iz jaruge su neprestano izlazile nove čete nizama kao da izviru ispod zemlje; razvijale su se u lance i kretale napred, sa štapovima i revolverima oficira iza sebe — uskoro su bivale zaustavljene, pokošene ili vraćene u jarugu.
 1	Iz	iz	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	jaruge	jaruga	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg
@@ -7363,7 +7363,7 @@
 41	jarugu	jaruga	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	39	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 42	.	.	PUNCT	Z	_	41	punct	_	OrigDep=Ponct
 
-# sent_id = 57
+# sent_id = 257
 # text = Kratko ime za tako dugačku bolest!
 1	Kratko	kratak	ADJ	A_qual_nom_sg_n_pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:n;n:sg
 2	ime	ime	NOUN	N_com_nom_sg_n	Case=Nom|Gender=Neut|Number=Sing	0	root	_	OrigDep=Root|OrigFeats=c:nom;g:n;n:sg
@@ -7373,7 +7373,7 @@
 6	bolest	bolest	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 7	!	!	PUNCT	Z	_	6	punct	_	OrigDep=Ponct
 
-# sent_id = 58
+# sent_id = 258
 # text = Hodajući, sebi je postavljao razna pitanja.
 1	Hodajući	hodati	VERB	V_main_partpres_-_-_-_-	Tense=Pres|VerbForm=Conv	5	advcl	_	OrigDep=DepVPart|OrigFeats=t:partpres|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -7384,7 +7384,7 @@
 7	pitanja	pitanje	NOUN	N_com_acc_pl_n	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:n;n:pl|SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 59
+# sent_id = 259
 # text = Mi smo podmukao, zao i opasan neprijatelj koji ni prema kome nema milosti, zato se prema nama ima postupati kao prema divljim zverima, i to sve dok ne budemo istrebljeni.
 1	Mi	mi	PRON	P_pers_1_pl_-_nom	Case=Nom|Number=Plur|Person=1	8	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;n:pl;r:1
 2	smo	jesam	AUX	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:1
@@ -7421,7 +7421,7 @@
 33	istrebljeni	istrebiti	VERB	V_main_partpass_-_pl_m_-	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Conv	21	advcl	_	OrigDep=PredSub|OrigFeats=g:m;n:pl;t:partpass|SpaceAfter=No
 34	.	.	PUNCT	Z	_	33	punct	_	OrigDep=Ponct
 
-# sent_id = 60
+# sent_id = 260
 # text = Julija je nemilosrdna, Julija uvek odnosi pobedu.
 1	Julija	Julija	PROPN	N_prop_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
 2	je	jesam	AUX	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:3
@@ -7433,7 +7433,7 @@
 8	pobedu	pobeda	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 9	.	.	PUNCT	Z	_	8	punct	_	OrigDep=Ponct
 
-# sent_id = 61
+# sent_id = 261
 # text = Gde su nestali sa ovih stranica sjajni ramovi, ljubičasti fijakeri, cveće što se raspada u vazama?
 1	Gde	gde	ADV	Adv_inter_-	_	3	advmod	_	OrigDep=DepVAdv
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -7455,7 +7455,7 @@
 18	vazama	vaza	NOUN	N_com_loc_pl_f	Case=Loc|Gender=Fem|Number=Plur	16	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:pl|SpaceAfter=No
 19	?	?	PUNCT	Z	_	18	punct	_	OrigDep=Ponct
 
-# sent_id = 62
+# sent_id = 262
 # text = A to što dolazi nije imalo svog imena ni svog obličja, možda je ličilo na buru praćenu grmljavinom, na neku adsku buru-osvetnicu koja, poput smrti, dolazi iznenadno i hvata ljude i decu pri spavanju, kukavički.
 1	A	a	CCONJ	C_coord	_	6	cc	_	OrigDep=Root
 2	to	taj	PRON	P_dem_-_sg_n_nom	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
@@ -7499,7 +7499,7 @@
 40	kukavički	kukavički	ADV	Adv_gen_pos	Degree=Pos	33	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 41	.	.	PUNCT	Z	_	40	punct	_	OrigDep=Ponct
 
-# sent_id = 63
+# sent_id = 263
 # text = O, oče moj!
 1	O	o	ADV	I	_	3	advmod	_	OrigDep=ExtraPred|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -7507,7 +7507,7 @@
 4	moj	moj	DET	A_pos_voc_sg_m_-	Case=Voc|Gender=Masc|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:voc;g:m;n:sg|SpaceAfter=No
 5	!	!	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 
-# sent_id = 64
+# sent_id = 264
 # text = Znate li, mladiću moj, koliko je od tada prošlo godina?
 1	Znate	znati	VERB	V_main_pres_2_pl_-_-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:2
 2	li	li	PART	Part	_	1	advmod	_	OrigDep=Interrog|SpaceAfter=No
@@ -7523,7 +7523,7 @@
 12	godina	godina	NOUN	N_com_gen_pl_f	Case=Gen|Gender=Fem|Number=Plur	11	nsubj	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:f;n:pl|SpaceAfter=No
 13	?	?	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 65
+# sent_id = 265
 # text = Sledeće noći zauzeo sam busiju pored prozora, očistio staklo, motrio i osluškivao, strah mi se skoturio oko srca; naprezao sam vid i sluh koji mi odavno ničemu ne služe.
 1	Sledeće	sledeći	ADJ	A_qual_gen_sg_f_pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:f;n:sg
 2	noći	noć	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	OrigDep=DepVCas|OrigFeats=c:gen;g:f;n:sg
@@ -7560,7 +7560,7 @@
 33	služe	služiti	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	OrigDep=PredRel|OrigFeats=n:pl;t:pres;r:3|SpaceAfter=No
 34	.	.	PUNCT	Z	_	33	punct	_	OrigDep=Ponct
 
-# sent_id = 66
+# sent_id = 266
 # text = Lepršanje zelenog muslina na glavi plave izabranice – Julije – ruku otežalih od prstenja.
 1	Lepršanje	lepršanje	NOUN	N_com_nom_sg_n	Case=Nom|Gender=Neut|Number=Sing	0	root	_	OrigDep=Root|OrigFeats=c:nom;g:n;n:sg
 2	zelenog	zelen	ADJ	A_qual_gen_sg_m_pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:m;n:sg
@@ -7578,14 +7578,14 @@
 14	prstenja	prstenje	NOUN	N_col_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 15	.	.	PUNCT	Z	_	14	punct	_	OrigDep=Ponct
 
-# sent_id = 67
+# sent_id = 267
 # text = Naiđe kišna godina.
 1	Naiđe	naići	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:aor;r:3
 2	kišna	kišan	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
 3	godina	godina	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 4	.	.	PUNCT	Z	_	3	punct	_	OrigDep=Ponct
 
-# sent_id = 68
+# sent_id = 268
 # text = A mislio sam: « Ne, vaše Veličanstvo, ne pristajem na te uslove.
 1	A	a	CCONJ	C_coord	_	2	cc	_	OrigDep=Root
 2	mislio	misliti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Coord|OrigFeats=g:m;n:sg;t:partact
@@ -7604,7 +7604,7 @@
 15	uslove	uslov	NOUN	N_com_acc_pl_m	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:m;n:pl|SpaceAfter=No
 16	.	.	PUNCT	Z	_	15	punct	_	OrigDep=Ponct
 
-# sent_id = 69
+# sent_id = 269
 # text = Posavetovasmo se i odlučismo da se zatvorimo u crkvu i da, pevajući molitve, zajedno umremo.
 1	Posavetovasmo	posavetovati	VERB	V_main_aor_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:aor;r:1
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	1	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -7625,7 +7625,7 @@
 17	umremo	umreti	VERB	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	OrigDep=PredCompletive|OrigFeats=n:pl;t:pres;r:1|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 70
+# sent_id = 270
 # text = Te noći spopadoše nas bolovi u trbusima, a presni komadi mesa nam trgoše na usta; nekakva tupost nam pomrači umove, jedva znadosmo gde smo i ko smo.
 1	Te	taj	DET	A_dem_gen_sg_f_-	Case=Gen|Gender=Fem|Number=Sing	2	det	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:f;n:sg
 2	noći	noć	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	OrigDep=DepVCas|OrigFeats=c:gen;g:f;n:sg
@@ -7659,7 +7659,7 @@
 30	smo	jesam	AUX	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	cop	_	OrigDep=Coord|OrigFeats=n:pl;t:pres;r:1|SpaceAfter=No
 31	.	.	PUNCT	Z	_	29	punct	_	OrigDep=Ponct
 
-# sent_id = 71
+# sent_id = 271
 # text = Odjednom je iskrsla pred njim masa nerešivih pitanja, mnoštvo problema koje moj otac nije hteo jednostavno da ignoriše, kako su to činili njegovi prethodnici na tom poslu, pa i on sam u svom Prafaustu, u prvom izdanju svog Konduktera, onom iz 1932, u kojem još nisu bile ubeležene međunarodne linije.
 1	Odjednom	odjednom	ADV	Adv_gen_pos	Degree=Pos	3	advmod	_	OrigDep=DepVAdv
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -7719,7 +7719,7 @@
 56	linije	linija	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	54	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:pl|SpaceAfter=No
 57	.	.	PUNCT	Z	_	56	punct	_	OrigDep=Ponct
 
-# sent_id = 72
+# sent_id = 272
 # text = Naši sprovodnici su jeli bravetinu i zalivali je rakijom, a mi nedopečeno ljudsko meso koje nam je u komadima trzalo na usta, gušilo nas i proždiralo.
 1	Naši	naš	DET	A_pos_nom_pl_m_-	Case=Nom|Gender=Masc|Number=Plur	2	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
 2	sprovodnici	sprovodnik	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
@@ -7751,7 +7751,7 @@
 28	proždiralo	proždirati	VERB	V_main_partact_-_sg_n_-	Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	21	conj	_	OrigDep=Coord|OrigFeats=g:n;n:sg;t:partact|SpaceAfter=No
 29	.	.	PUNCT	Z	_	28	punct	_	OrigDep=Ponct
 
-# sent_id = 73
+# sent_id = 273
 # text = Dok povorka obiđe Kao, prokrstari raskrsnicama, pronađe hrastove-zapise, on promeni mnogo lica i obrazina; stari i podmlađuje se, peva, plače, veseli se i kuka, raščinjava se ili raste, ponosno stupa među prvima ili človi na glavi, izigrava vojnika, ismeva popa.
 1	Dok	dok	SCONJ	C_sub	_	3	mark	_	OrigDep=Sub
 2	povorka	povorka	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
@@ -7806,7 +7806,7 @@
 51	popa	pop	NOUN	N_com_acc_sg_m	Case=Acc|Gender=Masc|Number=Sing	50	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:m;n:sg|SpaceAfter=No
 52	.	.	PUNCT	Z	_	51	punct	_	OrigDep=Ponct
 
-# sent_id = 74
+# sent_id = 274
 # text = Nastale su, dakle, improvizacijom, kao pesma, zatim su počele postepeno da se kristališu, pretvorivši se najzad u jednu idealističku instituciju sa dosta jasno određenim ciljevima.
 1	Nastale	nastati	VERB	V_main_partact_-_pl_f_-	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:f;n:pl;t:partact
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3|SpaceAfter=No
@@ -7840,7 +7840,7 @@
 30	ciljevima	cilj	NOUN	N_com_ins_pl_f	Case=Ins|Gender=Fem|Number=Plur	25	nmod	_	OrigDep=ComplPrep|OrigFeats=c:ins;g:f;n:pl|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 75
+# sent_id = 275
 # text = Oko mene su plivale ribe i gledale me praznim, sitim očima.
 1	Oko	oko	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	mene	ja	PRON	P_pers_1_sg_-_gen	Case=Gen|Number=Sing|Person=1	4	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;n:sg;r:1
@@ -7856,7 +7856,7 @@
 12	očima	oko	NOUN	N_com_ins_pl_f	Case=Ins|Gender=Fem|Number=Plur	7	obl	_	OrigDep=DepVCas|OrigFeats=c:ins;g:f;n:pl|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 76
+# sent_id = 276
 # text = Svi smo pomalo bili zaljubljeni u našu udovicu i svi smo je mrzeli; žene najviše.
 1	Svi	sav	PRON	P_indef_-_pl_m_nom	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 2	smo	jesam	AUX	V_aux_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:1
@@ -7876,7 +7876,7 @@
 16	najviše	više	ADV	Adv_gen_sup	Degree=Sup	15	orphan	_	OrigDep=DepEx_DepVAdv|SpaceAfter=No
 17	.	.	PUNCT	Z	_	16	punct	_	OrigDep=Ponct
 
-# sent_id = 77
+# sent_id = 277
 # text = Sutradan, valjda da speremo sramotu sa sebe, krenusmo na juriš; naši umesto nas, njihovi umesto njih.
 1	Sutradan	sutradan	ADV	Adv_gen_pos	Degree=Pos	10	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -7900,7 +7900,7 @@
 20	njih	oni	PRON	P_pers_3_pl_m_gen	Case=Gen|Gender=Masc|Number=Plur|Person=3	18	orphan	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:pl;r:3|SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	OrigDep=Ponct
 
-# sent_id = 78
+# sent_id = 278
 # text = Kad pevam, niko me ne sluša; moj glas odjekuje tek onako i prazno.
 1	Kad	kada	SCONJ	C_sub	_	2	mark	_	OrigDep=Sub
 2	pevam	pevati	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:1|SpaceAfter=No
@@ -7919,7 +7919,7 @@
 15	prazno	prazno	ADV	Adv_gen_pos	Degree=Pos	13	conj	_	OrigDep=Coord|SpaceAfter=No
 16	.	.	PUNCT	Z	_	15	punct	_	OrigDep=Ponct
 
-# sent_id = 79
+# sent_id = 279
 # text = Jedino joj oko usta titraše blaga senka plamena koji brzo utrnu.
 1	Jedino	jedino	ADV	Adv_gen_pos	Degree=Pos	5	advmod	_	OrigDep=DepVAdv
 2	joj	on	PRON	P_pers_3_sg_f_dat	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:f;n:sg;r:3
@@ -7934,7 +7934,7 @@
 11	utrnu	utrnuti	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	OrigDep=PredRel|OrigFeats=n:sg;t:aor;r:3|SpaceAfter=No
 12	.	.	PUNCT	Z	_	11	punct	_	OrigDep=Ponct
 
-# sent_id = 80
+# sent_id = 280
 # text = Buknuše dva-tri požara usred kiše, sagore nekoliko kuća, štala i sporednih zgrada i nešto previše revnih gasilaca.
 1	Buknuše	buknuti	VERB	V_main_aor_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:aor;r:3
 2	dva-tri	dva-tri	NUM	Num_card_-_-_-	_	3	nummod:gov	_	OrigDep=Suj
@@ -7957,7 +7957,7 @@
 19	gasilaca	gasilac	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	9	conj	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 20	.	.	PUNCT	Z	_	19	punct	_	OrigDep=Ponct
 
-# sent_id = 81
+# sent_id = 281
 # text = Upalila se jedna javna kuća i kurve su gorele kao buktinje dok su kroz prozore skakale na ulicu.
 1	Upalila	upaliti	VERB	V_main_partact_-_sg_f_-	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:f;n:sg;t:partact
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	1	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -7979,16 +7979,16 @@
 18	ulicu	ulica	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 19	.	.	PUNCT	Z	_	18	punct	_	OrigDep=Ponct
 
-# sent_id = 82
+# sent_id = 282
 # text = Ko je hitnuo i zašto?
 1	Ko	ko	PRON	P_inter_-_-_-_nom	Case=Nom	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom
-2	je	on	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
+2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
 3	hitnuo	hitnuti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 4	i	i	CCONJ	C_coord	_	5	cc	_	OrigDep=ConjCoord
 5	zašto	zašto	ADV	Adv_inter_-	_	3	conj	_	OrigDep=DepEx_DepVAdv|SpaceAfter=No
 6	?	?	PUNCT	Z	_	5	punct	_	OrigDep=Ponct
 
-# sent_id = 83
+# sent_id = 283
 # text = Satiru se, ginu kao muve, uništavaju se, gube bitku za bitkom (to posle postaju njihovi praznici), dele se na razne stranke i pokrete; kad slučajno dobiju slobodu, tad ne znaju šta će sa njom i gledaju da je se što pre oslobode.
 1	Satiru	satirati	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:3
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	1	expl	_	OrigDep=Ref|OrigFeats=c:acc|SpaceAfter=No
@@ -8042,7 +8042,7 @@
 50	oslobode	osloboditi	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:pl;t:pres;r:3|SpaceAfter=No
 51	.	.	PUNCT	Z	_	50	punct	_	OrigDep=Ponct
 
-# sent_id = 84
+# sent_id = 284
 # text = Ali baš tada, u tom sjajnom trenutku lucidnosti, skoro božanske, ulazi mi u svest misao Ja ovo sanjam JA OVO SANJAM (jer san ne trpi lucidnost) i ja pokušavam da odbacim tu misao, ne zato što bi ona bila lažna, nego upravo zato što osećam da je istinita.
 1	Ali	ali	CCONJ	C_coord	_	14	cc	_	OrigDep=Root
 2	baš	baš	PART	Part	_	3	advmod	_	OrigDep=DepAdvAdv
@@ -8101,7 +8101,7 @@
 55	istinita	istinit	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	52	ccomp	_	OrigDep=PredicNom|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 56	.	.	PUNCT	Z	_	55	punct	_	OrigDep=Ponct
 
-# sent_id = 85
+# sent_id = 285
 # text = Osim mene, svi su mu verovali, a on ni sebi ni meni.
 1	Osim	osim	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	mene	ja	PRON	P_pers_1_sg_-_gen	Case=Gen|Number=Sing|Person=1	7	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;n:sg;r:1|SpaceAfter=No
@@ -8119,7 +8119,7 @@
 14	meni	ja	PRON	P_pers_1_sg_-_dat	Case=Dat|Number=Sing|Person=1	12	conj	_	OrigDep=Coord|OrigFeats=c:dat;n:sg;r:1|SpaceAfter=No
 15	.	.	PUNCT	Z	_	14	punct	_	OrigDep=Ponct
 
-# sent_id = 86
+# sent_id = 286
 # text = Čim neko ne zna ništa da radi (a takođe ne zna ni šta će sa sobom), taj se proglasi za pametnog, za rušitelja starog sveta i graditelja novog.
 1	Čim	čim	SCONJ	C_sub	_	4	mark	_	OrigDep=Sub
 2	neko	neko	PRON	P_indef_-_-_-_nom	Case=Nom	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom
@@ -8155,7 +8155,7 @@
 32	novog	novi	ADJ	A_qual_gen_sg_m_pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	nmod	_	OrigDep=DepEx_DepNAdj|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 33	.	.	PUNCT	Z	_	32	punct	_	OrigDep=Ponct
 
-# sent_id = 87
+# sent_id = 287
 # text = Ventvort i Lujza za to vreme su podigli mulatkinju.
 1	Ventvort	Ventvort	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 2	i	i	CCONJ	C_coord	_	3	cc	_	OrigDep=ConjCoord
@@ -8168,7 +8168,7 @@
 9	mulatkinju	mulatkinja	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 10	.	.	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 88
+# sent_id = 288
 # text = Ne zvao se ja kako se zovem!
 1	Ne	ne	PART	Part	Polarity=Neg	2	advmod	_	OrigDep=Neg
 2	zvao	zvati	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
@@ -8179,7 +8179,7 @@
 7	zovem	zvati	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	xcomp	_	OrigDep=PredRel|OrigFeats=n:sg;t:pres;r:1|SpaceAfter=No
 8	!	!	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 89
+# sent_id = 289
 # text = Usamljeni čovek je neprirodna pojava, jedan biološki paradoks bez ikakvog osnova.
 1	Usamljeni	usamljen	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
 2	čovek	čovek	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
@@ -8195,7 +8195,7 @@
 12	osnova	osnov	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 90
+# sent_id = 290
 # text = Već sutradan, došavši k sebi, i još mamuran i mučen paklenom žeđu koju je zalivao vodom kao požar, on bi pokušao da povrati svoje dostojanstvo i nameštao bi pred ogledalom svoju kravatu, hitro, kao što se namešta u usta proteza.
 1	Već	već	ADV	Adv_gen_pos	Degree=Pos	2	advmod	_	OrigDep=DepAdvAdv
 2	sutradan	sutradan	ADV	Adv_gen_pos	Degree=Pos	24	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
@@ -8244,7 +8244,7 @@
 45	proteza	proteza	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 46	.	.	PUNCT	Z	_	45	punct	_	OrigDep=Ponct
 
-# sent_id = 91
+# sent_id = 291
 # text = U početku bi se samo zaključavao u svoju sobu, gde je nama bio tada zabranjen svaki pristup, a kasnije je odlazio na neka duga putovanja čiji smisao i cilj nikada nisam mogao da razjasnim.
 1	U	u	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	početku	početak	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg
@@ -8284,7 +8284,7 @@
 36	razjasnim	razjasniti	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	ccomp	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:1|SpaceAfter=No
 37	.	.	PUNCT	Z	_	36	punct	_	OrigDep=Ponct
 
-# sent_id = 92
+# sent_id = 292
 # text = Posle nekog vremena taj nezvani gost-ubica se zasitio; priče vazda postavljaju granicu preko koje zlo ne može, šteta što nije tako uistinu.
 1	Posle	posle	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	nekog	neki	DET	A_indef_gen_sg_n_-	Case=Gen|Gender=Neut|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:n;n:sg
@@ -8312,7 +8312,7 @@
 24	uistinu	uistinu	ADV	Adv_gen_pos	Degree=Pos	23	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 25	.	.	PUNCT	Z	_	24	punct	_	OrigDep=Ponct
 
-# sent_id = 93
+# sent_id = 293
 # text = Govore li mu nežne, meke reči koje mi nikada nismo čuli i koje bi nas možda i povredile?
 1	Govore	govoriti	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:3
 2	li	li	PART	Part	_	1	advmod	_	OrigDep=Interrog
@@ -8335,7 +8335,7 @@
 19	povredile	povrediti	VERB	V_main_partact_-_pl_f_-	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	12	conj	_	OrigDep=Coord|OrigFeats=g:f;n:pl;t:partact|SpaceAfter=No
 20	?	?	PUNCT	Z	_	19	punct	_	OrigDep=Ponct
 
-# sent_id = 94
+# sent_id = 294
 # text = Zornjača mu je bila čas napred, čas pozadi.
 1	Zornjača	zornjača	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
 2	mu	on	PRON	P_pers_3_sg_m_dat	Case=Dat|Gender=Masc|Number=Sing|Person=3	6	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:m;n:sg;r:3
@@ -8348,7 +8348,7 @@
 9	pozadi	pozadi	ADV	Adv_gen_pos	Degree=Pos	6	conj	_	OrigDep=PredicAdv|SpaceAfter=No
 10	.	.	PUNCT	Z	_	6	punct	_	OrigDep=Ponct
 
-# sent_id = 95
+# sent_id = 295
 # text = Imaju dva lica i dve duše, a tela su im obeležena.
 1	Imaju	imati	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:3
 2	dva	dva	NUM	Num_card_m_pl_acc	Case=Acc|Gender=Masc|Number=Plur	3	nummod:gov	_	OrigDep=ObjDir|OrigFeats=c:acc;g:m;n:pl
@@ -8364,7 +8364,7 @@
 12	obeležena	obeležiti	VERB	V_main_partpass_-_pl_n_-	Gender=Neut|Number=Plur|Tense=Past|VerbForm=Conv	1	conj	_	OrigDep=Coord|OrigFeats=g:n;n:pl;t:partpass|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 96
+# sent_id = 296
 # text = Nakaze a ne naši lepi, pitomi mrtvaci odranije koje smo redili i spremali za sahranu kao devojke za venčanje.
 1	Nakaze	nakaza	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	0	root	_	OrigDep=Root|OrigFeats=c:nom;g:f;n:pl
 2	a	a	CCONJ	C_coord	_	8	cc	_	OrigDep=ConjCoord
@@ -8388,7 +8388,7 @@
 20	venčanje	venčanje	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	18	orphan	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	OrigDep=Ponct
 
-# sent_id = 97
+# sent_id = 297
 # text = Došavši na selo, moj otac nije imao više mogućnosti da se skriva.
 1	Došavši	doći	VERB	V_main_partpast_-_-_-_-	Tense=Past|VerbForm=Conv	8	advcl	_	OrigDep=DepVPart|OrigFeats=t:partpast
 2	na	na	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
@@ -8405,7 +8405,7 @@
 13	skriva	skrivati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
-# sent_id = 98
+# sent_id = 298
 # text = Večnost i smrt, tajanstvo vremena, stajali bi preda mnom nedokučivi i nepobeđeni.
 1	Večnost	večnost	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
 2	i	i	CCONJ	C_coord	_	3	cc	_	OrigDep=ConjCoord
@@ -8423,7 +8423,7 @@
 14	nepobeđeni	nepobeđen	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:pl|SpaceAfter=No
 15	.	.	PUNCT	Z	_	14	punct	_	OrigDep=Ponct
 
-# sent_id = 99
+# sent_id = 299
 # text = Stojimo kraj ograde zamka, zadihani, ruku pruženih kroz rešetke.
 1	Stojimo	stajati	VERB	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:1
 2	kraj	kraj	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
@@ -8438,7 +8438,7 @@
 11	rešetke	rešetka	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 12	.	.	PUNCT	Z	_	11	punct	_	OrigDep=Ponct
 
-# sent_id = 100
+# sent_id = 300
 # text = Ali je pretrpela duboku krizu: nisam mogao da nađem u njoj objašnjenje svojih trauma i one drhtavice koja bi me obuzimala pred veče, u vreme kada je dolazak gospođice Edit, stvaran ili izmišljen, obremenjivao vazduh gustim mirisima, prethodnicom njenog tela.
 1	Ali	ali	CCONJ	C_coord	_	3	cc	_	OrigDep=Root
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -8487,7 +8487,7 @@
 45	tela	telo	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 46	.	.	PUNCT	Z	_	45	punct	_	OrigDep=Ponct
 
-# sent_id = 101
+# sent_id = 301
 # text = Jer moj otac je brao koprivu kao pas kad grize travu pred oluju: besan i nemoćan da podmetne požar.
 1	Jer	jer	SCONJ	C_sub	_	5	mark	_	OrigDep=Root
 2	moj	moj	DET	A_pos_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -8511,7 +8511,7 @@
 20	požar	požar	NOUN	N_com_acc_sg_m	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:m;n:sg|SpaceAfter=No
 21	.	.	PUNCT	Z	_	20	punct	_	OrigDep=Ponct
 
-# sent_id = 102
+# sent_id = 302
 # text = Kad sam iscrpeo sva sredstva i sva mučenja, pustio sam na volju svojoj krivoj sablji, oplemenjenoj blagoslovom hodža i derviša; sekao sam ih uživajući, ubijao kao da dižem džamije.
 1	Kad	kada	SCONJ	C_sub	_	3	mark	_	OrigDep=Sub
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -8548,7 +8548,7 @@
 33	džamije	džamija	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	32	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 34	.	.	PUNCT	Z	_	33	punct	_	OrigDep=Ponct
 
-# sent_id = 103
+# sent_id = 303
 # text = Malo kasnije zmije počeše da izlaze na Preki Put kao da ih isterivahu vrućine, suše i bezvetrice.
 1	Malo	malo	ADV	Adv_gen_pos	Degree=Pos	2	advmod	_	OrigDep=DepAdvAdv
 2	kasnije	kasno	ADV	Adv_gen_comp	Degree=Cmp	4	advmod	_	OrigDep=DepVAdv
@@ -8570,7 +8570,7 @@
 18	bezvetrice	bezvetrica	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	14	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:pl|SpaceAfter=No
 19	.	.	PUNCT	Z	_	18	punct	_	OrigDep=Ponct
 
-# sent_id = 104
+# sent_id = 304
 # text = A kada biste je upitali zašto plače, ona bi se za trenutak zamislila i kazala vam da joj je jako, jako žao što je prošao jedan praznik (jedno putovanje), nasmejala bi se vašoj začuđenosti i nerazumevanju, pa bi opet počela da rida, neutešno.
 1	A	a	CCONJ	C_coord	_	14	cc	_	OrigDep=Root
 2	kada	kada	SCONJ	C_sub	_	5	mark	_	OrigDep=Sub
@@ -8624,7 +8624,7 @@
 50	neutešno	neutešno	ADV	Adv_gen_pos	Degree=Pos	48	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 51	.	.	PUNCT	Z	_	50	punct	_	OrigDep=Ponct
 
-# sent_id = 105
+# sent_id = 305
 # text = Kad više nije imalo šta da se prosi (jer svi behu gladni i svi prosjaci) kad nebo potamne i zvezde se izgubiše, povukli smo se u kuće kao puževi; zatvorili smo vrata, zastrli prozore, ugasili sveće i žiškove, prestali da razgovaramo.
 1	Kad	kada	SCONJ	C_sub	_	4	mark	_	OrigDep=Sub
 2	više	više	ADV	Adv_gen_pos	Degree=Pos	4	advmod	_	OrigDep=DepVAdv
@@ -8676,7 +8676,7 @@
 48	razgovaramo	razgovarati	VERB	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	46	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:pl;t:pres;r:1|SpaceAfter=No
 49	.	.	PUNCT	Z	_	48	punct	_	OrigDep=Ponct
 
-# sent_id = 106
+# sent_id = 306
 # text = Čovek je na trenutak zastao nasred prolaza i neodlučno pogledao oko sebe.
 1	Čovek	čovek	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -8692,7 +8692,7 @@
 12	sebe	se	PRON	P_ref_-_-_-_gen	Case=Gen	10	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 107
+# sent_id = 307
 # text = A prilike su bile izvanredne; tek su počeli malo da napreduju, izgradili nešto puteva, crkava, škola i bolnica, nekoliko fabričica.
 1	A	a	CCONJ	C_coord	_	5	cc	_	OrigDep=Root
 2	prilike	prilika	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:pl
@@ -8721,7 +8721,7 @@
 25	fabričica	fabričica	NOUN	N_com_gen_pl_f	Case=Gen|Gender=Fem|Number=Plur	24	obl	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:f;n:pl|SpaceAfter=No
 26	.	.	PUNCT	Z	_	25	punct	_	OrigDep=Ponct
 
-# sent_id = 108
+# sent_id = 308
 # text = Jer taj se ljubavni roman, nošen od usta do usta, nažalost već davno izlizao kao ružičasti lilihip.
 1	Jer	jer	SCONJ	C_sub	_	16	mark	_	OrigDep=Root
 2	taj	taj	DET	A_dem_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	5	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -8744,7 +8744,7 @@
 19	lilihip	lilihip	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 20	.	.	PUNCT	Z	_	19	punct	_	OrigDep=Ponct
 
-# sent_id = 109
+# sent_id = 309
 # text = Ima tome više od dvadeset godina kako sam ga udario (meni je tada bilo sedam godina), a on se previjao pred publikom kao da se to dogodilo pre nekoliko sati, pre nekoliko trenutaka.
 1	Ima	imati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:3
 2	tome	taj	PRON	P_dem_-_sg_n_dat	Case=Dat|Gender=Neut|Number=Sing	1	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:n;n:sg
@@ -8785,14 +8785,14 @@
 37	trenutaka	trenutak	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	36	obl	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 38	.	.	PUNCT	Z	_	37	punct	_	OrigDep=Ponct
 
-# sent_id = 110_split1
-# text = NE ! »
+# sent_id = 310
+# text = NE!»
 1	NE	ne	PART	Part	_	0	root	_	OrigDep=Root|SpaceAfter=No
-2	!	!	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
+2	!	!	PUNCT	Z	_	1	punct	_	OrigDep=Ponct|SpaceAfter=No
 3	»	»	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
 
-# sent_id = 110_split2
-# text = jer još uvek ima vremena da on raširi prste i ispusti jabuku , namigujem mu da se okrene i da vidi to što i ja vidim : pitona iznad Evine glave što se savio oko grane kao puzavica .
+# sent_id = 311
+# text = jer još uvek ima vremena da on raširi prste i ispusti jabuku , namigujem mu da se okrene i da vidi to što i ja vidim: pitona iznad Evine glave što se savio oko grane kao puzavica.
 1	jer	jer	SCONJ	C_sub	_	4	mark	_	OrigDep=DepEx_Sub
 2	još	još	PART	Part	_	4	advmod	_	OrigDep=DepVAdv
 3	uvek	uvek	ADV	Adv_gen_pos	Degree=Pos	2	advmod	_	OrigDep=DepAdvAdv
@@ -8804,7 +8804,7 @@
 9	prste	prst	NOUN	N_com_acc_pl_m	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:m;n:pl
 10	i	i	CCONJ	C_coord	_	11	cc	_	OrigDep=ConjCoord
 11	ispusti	ispustiti	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	OrigDep=Coord|OrigFeats=n:sg;t:pres;r:3
-12	jabuku	jabuka	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
+12	jabuku	jabuka	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:sg
 13	,	,	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 14	namigujem	namigivati	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	OrigDep=Juxt|OrigFeats=n:sg;t:pres;r:1
 15	mu	on	PRON	P_pers_3_sg_m_dat	Case=Dat|Gender=Masc|Number=Sing|Person=3	14	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:m;n:sg;r:3
@@ -8833,7 +8833,7 @@
 38	puzavica	puzavica	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	34	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 39	.	.	PUNCT	Z	_	38	punct	_	OrigDep=Ponct
 
-# sent_id = 111
+# sent_id = 312
 # text = Da li uništava ili spasava?
 1	Da	da	PART	Part	_	3	advmod	_	OrigDep=Interrog
 2	li	li	PART	Part	_	1	fixed	_	OrigDep=Polylex
@@ -8842,7 +8842,7 @@
 5	spasava	spasavati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	OrigDep=Coord|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 6	?	?	PUNCT	Z	_	5	punct	_	OrigDep=Ponct
 
-# sent_id = 112
+# sent_id = 313
 # text = Jedan mlaz tog tamnog vodopada, jedna vitica njene bujne kosmatosti, ufitiljena kao brk, naglo se izvija iz svog toka, zaokreće preko bedara kao puzavica ili kakav živi organizam, i, prkoseći zakonima teže, vođena nekim istovremeno božanskim i grešnim nadahnućem, prekriva golotinju pramajke, iz čijeg plodnog trbuha viri njen pupak, kao kakvo veliko, kiklopsko oko.
 1	Jedan	jedan	NUM	Num_card_m_sg_nom	Case=Nom|Gender=Masc|Number=Sing	2	nummod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
 2	mlaz	mlaz	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
@@ -8911,7 +8911,7 @@
 65	oko	oko	NOUN	N_com_nom_sg_n	Case=Nom|Gender=Neut|Number=Sing	56	obl	_	OrigDep=DepEx_PredicComplSuj|OrigFeats=c:nom;g:n;n:sg|SpaceAfter=No
 66	.	.	PUNCT	Z	_	65	punct	_	OrigDep=Ponct
 
-# sent_id = 113
+# sent_id = 314
 # text = Naravno, moj otac (enciklopedista, mag, psiholog, itd.) nije se predavao na milost i nemilost seoskim džukelama, niti se u svoju odbranu služio štapom sa gvozdenim šiljkom, kako bi to neupućeni mogli da pomisle.
 1	Naravno	naravno	PART	Part	_	0	root	_	OrigDep=Root|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -8957,7 +8957,7 @@
 42	pomisle	pomisliti	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:pl;t:pres;r:3|SpaceAfter=No
 43	.	.	PUNCT	Z	_	42	punct	_	OrigDep=Ponct
 
-# sent_id = 114
+# sent_id = 315
 # text = Posle toga bismo se razboljevali; tresle su nas troletnice, pojavljivale nam se žive rane na koži, a krv nam se pokazivala u pljuvački — crvenkasta, gorka i sva zgrušana.
 1	Posle	posle	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	toga	taj	PRON	P_dem_-_sg_n_gen	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg
@@ -8994,7 +8994,7 @@
 33	zgrušana	zgrušan	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 34	.	.	PUNCT	Z	_	33	punct	_	OrigDep=Ponct
 
-# sent_id = 115
+# sent_id = 316
 # text = Bio sam u svom brojanju došao do šezdeset (znao sam da brojim do dvesta) kada mi se taj broj javi u svesti ne kao prost broj koji nema nikakav smisao osim kao ređanje dečje brojanice što služi samo za to da te uspava – na način na koji neka reč koju izgovorimo bezbroj puta, jednu za drugom, naprežući se da kroz ime nazremo njen smisao, predmet koji je njom imenovan, pa se u jednom trenutku baš sadržaj reči izgubi u zvuku, prospe joj se sadržina kao tečnost, a ostane samo prazna, kristalna posuda reči – nego, jednim od ovoga obrnutim procesom, jedan je od brojeva postao pehar na čijem se dnu mućkao tamni talog smisla, jedan je od brojeva postao u jednom trenutku broj godina, a time su i svi ostali brojevi zadobili to isto značenje: broj godina koliko će živeti moja majka.
 1	Bio	biti	AUX	V_aux_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	aux	_	OrigDep=AuxV|OrigFeats=g:m;n:sg;t:partact
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -9155,7 +9155,7 @@
 157	majka	majka	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	155	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 158	.	.	PUNCT	Z	_	157	punct	_	OrigDep=Ponct
 
-# sent_id = 116
+# sent_id = 317
 # text = Za nama je planula kuća u kojoj smo uhvaćeni, krčevina je blesnula kao pod crvenim suncem; iz požara nešto zapišta i poslednji put blesnuše one mrtve staričine oči.
 1	Za	za	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	nama	mi	PRON	P_pers_1_pl_-_ins	Case=Ins|Number=Plur|Person=1	4	obl	_	OrigDep=ComplPrep|OrigFeats=c:ins;n:pl;r:1
@@ -9189,11 +9189,11 @@
 30	oči	oko	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	26	obj	_	OrigDep=ObjDir|OrigFeats=c:nom;g:f;n:pl|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 117
+# sent_id = 318
 # text = ...
 1	...	...	PUNCT	Z	_	0	root	_	OrigDep=Ponct
 
-# sent_id = 118
+# sent_id = 319
 # text = Ako spava s njima, možemo mu nekako i oprostiti; na toj rupi nema zakrpe.
 1	Ako	ako	SCONJ	C_sub	_	2	mark	_	OrigDep=Sub
 2	spava	spavati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:3
@@ -9213,7 +9213,7 @@
 16	zakrpe	zakrpa	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	15	obl:arg	_	OrigDep=SujLog|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 17	.	.	PUNCT	Z	_	16	punct	_	OrigDep=Ponct
 
-# sent_id = 119
+# sent_id = 320
 # text = I sve ponovo beše isto kao nekada.
 1	I	i	CCONJ	C_coord	_	5	cc	_	OrigDep=Root
 2	sve	sav	PRON	P_indef_-_sg_n_nom	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
@@ -9224,7 +9224,7 @@
 7	nekada	nekada	ADV	Adv_gen_pos	Degree=Pos	5	obl	_	OrigDep=DepEx_DepVAdv|SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 120
+# sent_id = 321
 # text = Uzimaju me za ruke i ljube me ustima suvim i smrdljivim od tamnih taloga.
 1	Uzimaju	uzimati	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:3
 2	me	ja	PRON	P_pers_1_sg_-_acc	Case=Acc|Number=Sing|Person=1	1	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;n:sg;r:1
@@ -9242,7 +9242,7 @@
 14	taloga	talog	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 15	.	.	PUNCT	Z	_	14	punct	_	OrigDep=Ponct
 
-# sent_id = 121
+# sent_id = 322
 # text = Izvadio je pogaču iz nedara i stavio mi je na glavu.
 1	Izvadio	izvaditi	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -9257,7 +9257,7 @@
 11	glavu	glava	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 12	.	.	PUNCT	Z	_	11	punct	_	OrigDep=Ponct
 
-# sent_id = 122
+# sent_id = 323
 # text = To fantastično bujanje snage koje je tada osetio pripisivao je samo alkoholu, no istovremeno je osećao i neki drhtaj sličan strahu: neka nepoznata snaga podizala ga je uvis.
 1	To	taj	DET	A_dem_acc_sg_n_-	Case=Acc|Gender=Neut|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:n;n:sg
 2	fantastično	fantastičan	ADJ	A_qual_acc_sg_n_pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:n;n:sg
@@ -9291,7 +9291,7 @@
 30	uvis	uvis	ADV	Adv_gen_pos	Degree=Pos	27	advmod	_	OrigDep=DepVAdv|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 123
+# sent_id = 324
 # text = Više ne vidiš ni sunca, ni meseca; ni zvezda; crna svetlost te obasjava tamom.
 1	Više	više	ADV	Adv_gen_comp	Degree=Cmp	3	advmod	_	OrigDep=DepVAdv
 2	ne	ne	PART	Part	Polarity=Neg	3	advmod	_	OrigDep=Neg
@@ -9312,7 +9312,7 @@
 17	tamom	tama	NOUN	N_com_ins_sg_f	Case=Ins|Gender=Fem|Number=Sing	16	obl	_	OrigDep=DepVCas|OrigFeats=c:ins;g:f;n:sg|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 124
+# sent_id = 325
 # text = Znao sam da će, ako se iz svega toga izvuče živ, prva stvar koju će učiniti biti da se pomokri iza nekog žbuna, puštajući snažne vetrove.)
 1	Znao	znati	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -9346,12 +9346,12 @@
 30	.	.	PUNCT	Z	_	29	punct	_	OrigDep=Ponct|SpaceAfter=No
 31	)	)	PUNCT	Z	_	29	punct	_	OrigDep=Ponct
 
-# sent_id = 125
+# sent_id = 326
 # text = navali.
 1	navali	navaliti	VERB	V_main_imper_2_sg_-_-	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:imper;r:2|SpaceAfter=No
 2	.	.	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
 
-# sent_id = 126
+# sent_id = 327
 # text = Poslao nam je samo jedno pismo, nekih mesec dana kasnije.
 # tags = TODO
 1	Poslao	poslati	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
@@ -9367,7 +9367,7 @@
 11	kasnije	kasno	ADV	Adv_gen_comp	Degree=Cmp	1	advmod	_	OrigDep=DepEx_DepVAdv|SpaceAfter=No
 12	.	.	PUNCT	Z	_	11	punct	_	OrigDep=Ponct
 
-# sent_id = 127
+# sent_id = 328
 # text = Jedva sam mogao da ga prepoznam.
 1	Jedva	jedva	ADV	Adv_gen_pos	Degree=Pos	3	advmod	_	OrigDep=DepVAdv
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -9377,7 +9377,7 @@
 6	prepoznam	prepoznati	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:sg;t:pres;r:1|SpaceAfter=No
 7	.	.	PUNCT	Z	_	6	punct	_	OrigDep=Ponct
 
-# sent_id = 128
+# sent_id = 329
 # text = Moja mi majka dade znak očima da ga sledim i isprati me pogledom punim značenja i opomene.
 1	Moja	moj	DET	A_pos_nom_sg_f_-	Case=Nom|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
 2	mi	ja	PRON	P_pers_1_sg_-_dat	Case=Dat|Number=Sing|Person=1	4	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;n:sg;r:1
@@ -9398,7 +9398,7 @@
 17	opomene	opomena	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 18	.	.	PUNCT	Z	_	17	punct	_	OrigDep=Ponct
 
-# sent_id = 129
+# sent_id = 330
 # text = Kad je umirao (već mnogo stariji od svih u okolini, satrven i smožden), prvo mu se učinilo da je, mada bez duše, uzleteo u nebo, vinuo se kao golub visokoletač.
 1	Kad	kada	SCONJ	C_sub	_	3	mark	_	OrigDep=Sub
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -9439,7 +9439,7 @@
 37	visokoletač	visokoletač	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	36	appos	_	OrigDep=Ap|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 38	.	.	PUNCT	Z	_	37	punct	_	OrigDep=Ponct
 
-# sent_id = 130
+# sent_id = 331
 # text = « Pretvorio se u pticu! » zaklikta Julija zadivljeno, zaboravivši se na trenutak, zatim se ugrize za usnu i dade svom licu izraz potpune no lažne ravnodušnosti.
 1	«	«	PUNCT	Z	_	2	punct	_	OrigDep=Ponct
 2	Pretvorio	pretvoriti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	ccomp	_	OrigDep=PredRap|OrigFeats=g:m;n:sg;t:partact
@@ -9473,7 +9473,7 @@
 30	ravnodušnosti	ravnodušnost	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 31	.	.	PUNCT	Z	_	30	punct	_	OrigDep=Ponct
 
-# sent_id = 131
+# sent_id = 332
 # text = Saplitala nas je, presretala i zbunjivala, opominjala čak i svojim odsustvom.
 1	Saplitala	saplitati	VERB	V_main_partact_-_sg_f_-	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:f;n:sg;t:partact
 2	nas	mi	PRON	P_pers_1_pl_-_acc	Case=Acc|Number=Plur|Person=1	1	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;n:pl;r:1
@@ -9490,7 +9490,7 @@
 13	odsustvom	odsustvo	NOUN	N_com_ins_sg_n	Case=Ins|Gender=Neut|Number=Sing	9	obl	_	OrigDep=DepVCas|OrigFeats=c:ins;g:n;n:sg|SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
 
-# sent_id = 132
+# sent_id = 333
 # text = Dok moja žena slatko spava (možda ću je jedne noći ubiti tako na spavanju), ležim u krevetu, znojim se, čekam, osluškujem šta se zbiva u meni i napolju.
 1	Dok	dok	SCONJ	C_sub	_	5	mark	_	OrigDep=Sub
 2	moja	moj	DET	A_pos_nom_sg_f_-	Case=Nom|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
@@ -9528,7 +9528,7 @@
 34	napolju	napolju	ADV	Adv_gen_pos	Degree=Pos	32	conj	_	OrigDep=Coord|SpaceAfter=No
 35	.	.	PUNCT	Z	_	34	punct	_	OrigDep=Ponct
 
-# sent_id = 133
+# sent_id = 334
 # text = Sama od sebe (niko je ne zasadi, valjda je vetar donese) izraste kriva kruška divljaka sa plodovima trpkim i gorkim — pod njom ne beše hlada ni odmora.
 1	Sama	sam	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	advcl	_	OrigDep=PredicOpt|OrigFeats=c:nom;g:f;n:sg
 2	od	od	ADP	Prep	_	3	case	_	OrigDep=DepAdjPrep
@@ -9563,7 +9563,7 @@
 31	odmora	odmor	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	29	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 32	.	.	PUNCT	Z	_	31	punct	_	OrigDep=Ponct
 
-# sent_id = 134
+# sent_id = 335
 # text = U nameri da ostane neprimećen, jer mora da me je video još iz daleka, on je sakrio pod pazuhom svoj šešir s tvrdim obodom i pokušao je da šmugne pored mene neprimećen.
 1	U	u	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	nameri	namera	NOUN	N_com_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	19	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg
@@ -9601,7 +9601,7 @@
 34	neprimećen	neprimećen	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	advcl	_	OrigDep=PredicOpt|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 35	.	.	PUNCT	Z	_	34	punct	_	OrigDep=Ponct
 
-# sent_id = 135
+# sent_id = 336
 # text = Nije znao da moj otac traži na nebu zvezdu svoje sudbine, koja je bila TAČNO označena u kabalističko-astrološkoj studiji A csillagfejtetés könyve.
 1	Nije	jesam	AUX	V_aux_pres_3_sg_-_neg	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
 2	znao	znati	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
@@ -9628,7 +9628,7 @@
 23	könyve	könyve	X	X	_	21	flat	_	OrigDep=Polylex|SpaceAfter=No
 24	.	.	PUNCT	Z	_	21	punct	_	OrigDep=Ponct
 
-# sent_id = 136
+# sent_id = 337
 # text = Njegov visoki, čisti glas vodio nas je od zapisa do zapisa.
 1	Njegov	njegov	DET	A_pos_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	5	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
 2	visoki	visok	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl|SpaceAfter=No
@@ -9644,7 +9644,7 @@
 12	zapisa	zapis	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 137
+# sent_id = 338
 # text = Gospođa Rigo se povlači u čahuru svoje zvaničnosti i svoje strogosti, pretvara se da ništa ne zna, da ništa ne primećuje, bojeći se eventualnih konsekvenci.
 1	Gospođa	gospođa	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:f;n:sg
 2	Rigo	Rigo	PROPN	N_prop_nom_sg_-	Case=Nom|Number=Sing	1	flat	_	OrigDep=Ap|OrigFeats=c:nom;n:sg
@@ -9676,7 +9676,7 @@
 28	konsekvenci	konsekvenca	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	25	obl	_	OrigDep=DepVCas|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 29	.	.	PUNCT	Z	_	28	punct	_	OrigDep=Ponct
 
-# sent_id = 138
+# sent_id = 339
 # text = Jedan zavapi: « Ubijte me, braćo.
 1	Jedan	jedan	NUM	Num_card_m_sg_nom	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 2	zavapi	zavapiti	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:aor;r:3|SpaceAfter=No
@@ -9688,7 +9688,7 @@
 8	braćo	brat	NOUN	N_col_voc_sg_f	Case=Voc|Gender=Fem|Number=Sing	5	vocative	_	OrigDep=DepVCas|OrigFeats=c:voc;g:f;n:sg|SpaceAfter=No
 9	.	.	PUNCT	Z	_	8	punct	_	OrigDep=Ponct
 
-# sent_id = 139
+# sent_id = 340
 # text = Moja je majka imala običaj da kaže da smo taj dečak i ta devojčica ja i moja sestra, i ja sam dugo verovao da smo to zaista mi, uhvaćeni u trenutku kada smo, u snovima, lutali tim predelom, i kada naš anđeo-čuvar nije bio na oprezu.
 1	Moja	moj	DET	A_pos_nom_sg_f_-	Case=Nom|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -9743,7 +9743,7 @@
 51	oprezu	oprez	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	40	conj	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 52	.	.	PUNCT	Z	_	51	punct	_	OrigDep=Ponct
 
-# sent_id = 140
+# sent_id = 341
 # text = On je, dakle, mogao lako da primi šifrovanu poruku od morzea-detlića i da je prevede u sebi manje-više tačno, ne doslovce, ali kao ljubavno pismo pisano nečitkim rukopisom.
 1	On	on	PRON	P_pers_3_sg_m_nom	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg;r:3
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
@@ -9779,7 +9779,7 @@
 32	rukopisom	rukopis	NOUN	N_com_ins_sg_m	Case=Ins|Gender=Masc|Number=Sing	30	obl	_	OrigDep=DepAdjCas|OrigFeats=c:ins;g:m;n:sg|SpaceAfter=No
 33	.	.	PUNCT	Z	_	32	punct	_	OrigDep=Ponct
 
-# sent_id = 141
+# sent_id = 342
 # text = Iscepani smo, kaljavi i poniženi.
 1	Iscepani	iscepati	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	OrigDep=PredicNom|OrigFeats=c:nom;g:m;n:pl
 2	smo	jesam	AUX	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:1|SpaceAfter=No
@@ -9789,7 +9789,7 @@
 6	poniženi	poniziti	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:m;n:pl|SpaceAfter=No
 7	.	.	PUNCT	Z	_	6	punct	_	OrigDep=Ponct
 
-# sent_id = 142
+# sent_id = 343
 # text = Kaljanski starci kažu (ili sam ja to izmislio radi zanimljivijeg izlaganja) da ga je zasadio Sveti Sava, mladi svetitelj, kad je obilazio zemlju i gradove i kad se, nekim svojim poslom, bavio u Kalu.
 1	Kaljanski	kaljanski	ADJ	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:pl
 2	starci	starac	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
@@ -9833,7 +9833,7 @@
 40	Kalu	Kao	PROPN	N_prop_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	38	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 41	.	.	PUNCT	Z	_	40	punct	_	OrigDep=Ponct
 
-# sent_id = 143
+# sent_id = 344
 # text = Iza njega je ležala samo sušna, spržena zemlja, ispucala i bez života; nad njom su duvali pusti vetrovi, tamo-amo su lazile šarene zmije sa malne ljudskim zenicama, požari su se gasili, a šume nigde nije bilo.
 1	Iza	iza	ADP	Prep	_	2	case	_	OrigDep=DepVPrep
 2	njega	on	PRON	P_pers_3_sg_m_gen	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:m;n:sg;r:3
@@ -9879,12 +9879,12 @@
 42	bilo	biti	AUX	V_main_partact_-_sg_n_-	Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	19	conj	_	OrigDep=Coord|OrigFeats=g:n;n:sg;t:partact|SpaceAfter=No
 43	.	.	PUNCT	Z	_	42	punct	_	OrigDep=Ponct
 
-# sent_id = 144
+# sent_id = 345
 # text = Obori!
 1	Obori	oboriti	VERB	V_main_imper_2_sg_-_-	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:imper;r:2|SpaceAfter=No
 2	!	!	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
 
-# sent_id = 145
+# sent_id = 346
 # text = Imena ne nastaju slučajno kao ljudi, niti isto tako slučajno nestaju; stoga treba verovati da su Džidovci postojali, da su bili narod, pleme ili utvarna družina, četa ubica i pljačkaša.
 1	Imena	ime	NOUN	N_com_nom_pl_n	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:pl
 2	ne	ne	PART	Part	Polarity=Neg	3	advmod	_	OrigDep=Neg
@@ -9923,7 +9923,7 @@
 35	pljačkaša	pljačkaš	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	33	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 36	.	.	PUNCT	Z	_	35	punct	_	OrigDep=Ponct
 
-# sent_id = 146
+# sent_id = 347
 # text = A ta dvojica behu kao robijaši zarobljeni istim okovima koji su ih ranjavali pri svakom pokretu.
 1	A	a	CCONJ	C_coord	_	7	cc	_	OrigDep=Root
 2	ta	taj	DET	A_dem_nom_sg_f_-	Case=Nom|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
@@ -9943,7 +9943,7 @@
 16	pokretu	pokret	NOUN	N_com_loc_sg_m	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:m;n:sg|SpaceAfter=No
 17	.	.	PUNCT	Z	_	16	punct	_	OrigDep=Ponct
 
-# sent_id = 147
+# sent_id = 348
 # text = Jeo bi kad bi mu dali, nije gledao šta; možda bi tako žvakao i kamen i ne bi se naljutio.
 1	Jeo	jesti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 2	bi	biti	AUX	V_aux_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:aor;r:3
@@ -9969,7 +9969,7 @@
 22	naljutio	naljutiti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	conj	_	OrigDep=Coord|OrigFeats=g:m;n:sg;t:partact|SpaceAfter=No
 23	.	.	PUNCT	Z	_	22	punct	_	OrigDep=Ponct
 
-# sent_id = 148
+# sent_id = 349
 # text = To je još samo više pothranjivalo našu čežnju za daljinom, našu iluziju o bekstvu.
 1	To	taj	PRON	P_dem_-_sg_n_nom	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -9988,7 +9988,7 @@
 15	bekstvu	bekstvo	NOUN	N_com_loc_sg_n	Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:n;n:sg|SpaceAfter=No
 16	.	.	PUNCT	Z	_	15	punct	_	OrigDep=Ponct
 
-# sent_id = 149
+# sent_id = 350
 # text = Zbilja, da ste posmatrali mog oca sa strane kako korača pored terase naših rođaka, zamahujući visoko svojim štapom, potpuno apsorbovan težinom svojih misli, nikada ne biste ni pomislili da u šeširu, pod pazuhom, nosi koprive od kojih je bio rešio da skuva čorbu što se jela na dvoru jedne od najuglednijih porodica u Evropi.
 1	Zbilja	zbilja	ADV	Part	_	32	advmod	_	OrigDep=ExtraPred|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -10052,7 +10052,7 @@
 60	Evropi	Evropa	PROPN	N_prop_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	58	nmod	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg|SpaceAfter=No
 61	.	.	PUNCT	Z	_	60	punct	_	OrigDep=Ponct
 
-# sent_id = 150
+# sent_id = 351
 # text = A taj se san ponavljao sa malim varijacijama uvek na isti način: ležao bih (u snu) u svom krevetu i odjednom bi nastala neka gusta, zastrašujuća tišina puna predskazanja.
 1	A	a	CCONJ	C_coord	_	5	cc	_	OrigDep=Root
 2	taj	taj	DET	A_dem_nom_sg_m_-	Case=Nom|Gender=Masc|Number=Sing	4	det	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:m;n:sg
@@ -10089,7 +10089,7 @@
 33	predskazanja	predskazanje	NOUN	N_com_gen_pl_n	Case=Gen|Gender=Neut|Number=Plur	32	obl	_	OrigDep=DepAdjCas|OrigFeats=c:gen;g:n;n:pl|SpaceAfter=No
 34	.	.	PUNCT	Z	_	33	punct	_	OrigDep=Ponct
 
-# sent_id = 151
+# sent_id = 352
 # text = Ako nam se to ne sviđa, možemo i da se poubijamo.
 1	Ako	ako	SCONJ	C_sub	_	6	mark	_	OrigDep=Sub
 2	nam	mi	PRON	P_pers_1_pl_-_dat	Case=Dat|Number=Plur|Person=1	6	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;n:pl;r:1
@@ -10105,7 +10105,7 @@
 12	poubijamo	poubijati	VERB	V_main_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:pl;t:pres;r:1|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 152
+# sent_id = 353
 # text = Probivši se kroz granje, kose i izukrštane, one bi treperile neko vreme od sopstvenog zamaha, zatim bi se istopile i kanule na tursku kaldrmu kao kap tečnog srebra.
 1	Probivši	probiti	VERB	V_main_partpast_-_-_-_-	Tense=Past|VerbForm=Conv	12	advcl	_	OrigDep=DepVPart|OrigFeats=t:partpast
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	1	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -10140,7 +10140,7 @@
 31	srebra	srebro	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 32	.	.	PUNCT	Z	_	31	punct	_	OrigDep=Ponct
 
-# sent_id = 153
+# sent_id = 354
 # text = Više nisam bunovan, samo mi hladnoća svežeg jutra pirka oko nosa i ja se zimogrožljivo pripijam uz majku.
 1	Više	više	ADV	Adv_gen_comp	Degree=Cmp	3	advmod	_	OrigDep=DepVAdv
 2	nisam	jesam	AUX	V_main_pres_1_sg_-_neg	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:1
@@ -10163,7 +10163,7 @@
 19	majku	majka	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:f;n:sg|SpaceAfter=No
 20	.	.	PUNCT	Z	_	19	punct	_	OrigDep=Ponct
 
-# sent_id = 154
+# sent_id = 355
 # text = Tako je postao blaženi.
 1	Tako	tako	PART	Part	_	3	advmod	_	OrigDep=DepVAdv
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -10171,7 +10171,7 @@
 4	blaženi	blaženi	ADJ	A_qual_nom_sg_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp	_	OrigDep=PredicComplSuj|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 5	.	.	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 
-# sent_id = 155
+# sent_id = 356
 # text = Kao jedina uteha, kao jedini znak pobede nad ništavilom, ukazuje mi se, prvo kao zvuk, a zatim kao neznatan metalni sjaj, malo okruglo srce časovnika koji se herojski opire smrti, noći i vremenu, pa pokušavam da njegovu pobedu uzdignem do sveopšteg trijumfa, da njegovo srce smestim u mrtvo telo noći kako bih je oživeo i uzdigao iznad razneženosti i osećanja poraza, naslanjam uvo na zvučnu dasku mrtve nahtkasne i čujem kako ona treperi, kako joj udara kucavica ispod grla kao u guštera, naprežem oči da nazrem dalekosežne posledice ove pobede i već mi se čini da vidim narandžastu boju na krilima anđela-čuvara, pa, nošen fantazmama, naduvavam tu pobedu do sveopšteg trijumfa boja i svetlosti koja počinje da nasrće sa svih strana, da izlazi iz okvira slika, da niče u vidu velikih razbuktalih ruža sa Anine haljine okačene na vratima ormara.
 1	Kao	kao	SCONJ	C_sub	_	3	case	_	OrigDep=Sub
 2	jedina	jedini	ADJ	A_qual_nom_sg_f_pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg
@@ -10331,7 +10331,7 @@
 156	ormara	ormar	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	155	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 157	.	.	PUNCT	Z	_	156	punct	_	OrigDep=Ponct
 
-# sent_id = 156
+# sent_id = 357
 # text = « Jesi li zaboravio: danas putujemo. »
 1	«	«	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 2	Jesi	jesam	AUX	V_aux_pres_2_sg_-_-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:2
@@ -10343,7 +10343,7 @@
 8	.	.	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 9	»	»	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 157
+# sent_id = 358
 # text = U tim poslednjim slogovima, koji su se u deliričnom fortisimu pretvarali u haos besmisla i preterivanja, moj otac je već gubio nit razgovora, počinjao bi da doziva Mesiju i da se obračunava s njim, u jednom stravičnom, proročkom monologu, u jednom nadahnutom lucida intervalla posle kojega bi gornja linija njegova glasa počela da se spušta, da deklinira, pretvarajući se u jauk, u ropac.
 1	U	u	ADP	Prep	_	4	case	_	OrigDep=DepVPrep
 2	tim	taj	DET	A_dem_loc_pl_m_-	Case=Loc|Gender=Masc|Number=Plur	4	det	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:m;n:pl
@@ -10419,7 +10419,7 @@
 72	ropac	ropac	NOUN	N_com_acc_sg_m	Case=Acc|Gender=Masc|Number=Sing	69	conj	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:m;n:sg|SpaceAfter=No
 73	.	.	PUNCT	Z	_	72	punct	_	OrigDep=Ponct
 
-# sent_id = 158
+# sent_id = 359
 # text = I duva neki mokar vetar sa mora.
 1	I	i	CCONJ	Part	_	2	cc	_	OrigDep=ConjCoord
 2	duva	duvati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Coord|OrigFeats=n:sg;t:pres;r:3
@@ -10430,7 +10430,7 @@
 7	mora	more	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	_	OrigDep=Ponct
 
-# sent_id = 159
+# sent_id = 360
 # text = Ali sam shvatio da govori iz jedne malo niže od njegove uobičajene oktave, iz oktave iskrenosti koja je već davno bila zamrla u njemu i koja je stoga zvučala neobično i dirljivo.
 1	Ali	ali	CCONJ	C_coord	_	3	cc	_	OrigDep=ConjCoord
 2	sam	jesam	AUX	V_aux_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:1
@@ -10467,7 +10467,7 @@
 33	dirljivo	dirljivo	ADV	Adv_gen_pos	Degree=Pos	31	conj	_	OrigDep=Coord|SpaceAfter=No
 34	.	.	PUNCT	Z	_	33	punct	_	OrigDep=Ponct
 
-# sent_id = 160
+# sent_id = 361
 # text = Uz njenu sam ličnost vezivao samo najčudnovatija zanimanja, najotmenije preokupacije, pa sam one bele šešire koje je donosila kod nas, zajedno sa kalupom za fazoniranje, smatrao delom njene ekstravagancije, delom njene ličnosti i sudbine.
 1	Uz	uz	ADP	Prep	_	4	case	_	OrigDep=DepVPrep
 2	njenu	njen	DET	A_pos_acc_sg_f_-	Case=Acc|Gender=Fem|Number=Sing	4	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
@@ -10510,7 +10510,7 @@
 39	sudbine	sudbina	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	37	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 40	.	.	PUNCT	Z	_	39	punct	_	OrigDep=Ponct
 
-# sent_id = 161
+# sent_id = 362
 # text = Oni koji su vodili rat sakrili su svoje sinove po tuđim zemljama, a naše su bacili da gube svoje i čuvaju tuđe glave.
 1	Oni	onaj	PRON	P_dem_-_pl_m_nom	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 2	koji	koji	PRON	P_rel_-_pl_m_nom	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
@@ -10538,7 +10538,7 @@
 24	glave	glava	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 25	.	.	PUNCT	Z	_	24	punct	_	OrigDep=Ponct
 
-# sent_id = 162
+# sent_id = 363
 # text = Onda je stavila na lopatu taj relikvije relikvijarum, i čipka se savila ukrug kao kruna.
 1	Onda	onda	ADV	Adv_gen_pos	Degree=Pos	3	advmod	_	OrigDep=DepVAdv
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -10558,7 +10558,7 @@
 16	kruna	kruna	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	13	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 17	.	.	PUNCT	Z	_	16	punct	_	OrigDep=Ponct
 
-# sent_id = 163
+# sent_id = 364
 # text = Dok se sunce sporo kretalo preko neba, mi smo pucali, padali na kolena i pridizali se; vrele puške su nam prljile dlanove, sagorevale meso.
 1	Dok	dok	SCONJ	C_sub	_	5	mark	_	OrigDep=Sub
 2	se	se	PRON	P_ref_-_-_-_acc	Case=Acc	5	expl	_	OrigDep=Ref|OrigFeats=c:acc
@@ -10590,7 +10590,7 @@
 28	meso	meso	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
 29	.	.	PUNCT	Z	_	28	punct	_	OrigDep=Ponct
 
-# sent_id = 164
+# sent_id = 365
 # text = Sunce ima svoju drevnu stazu i Erinije ne dozvoljavaju da je napusti.
 1	Sunce	sunce	NOUN	N_com_nom_sg_n	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	ima	imati	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:sg;t:pres;r:3
@@ -10602,11 +10602,11 @@
 8	ne	ne	PART	Part	Polarity=Neg	9	advmod	_	OrigDep=Neg
 9	dozvoljavaju	dozvoljavati	VERB	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	OrigDep=Coord|OrigFeats=n:pl;t:pres;r:3
 10	da	da	SCONJ	C_sub	_	12	mark	_	OrigDep=Sub
-11	je	on	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
+11	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
 12	napusti	napustiti	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	OrigDep=PredCompletive|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 165
+# sent_id = 366
 # text = Saveznici su nas nahranili, obukli i naoružali, a mi ćemo ginuti umesto njih — to je lep i večan raspored poslova.
 1	Saveznici	saveznik	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -10633,7 +10633,7 @@
 23	poslova	posao	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 24	.	.	PUNCT	Z	_	23	punct	_	OrigDep=Ponct
 
-# sent_id = 166
+# sent_id = 367
 # text = « Uostalom », nastavi on, « ako je čak i istina to što tvrdite, mladiću, to jest da sam baš ja vaš otac, ja imam savršeno pravo da se ne sećam toga.
 1	«	«	PUNCT	Z	_	2	punct	_	OrigDep=Ponct
 2	Uostalom	uostalom	ADV	Part	_	30	advmod	_	OrigDep=ExtraPred
@@ -10674,7 +10674,7 @@
 37	toga	taj	PRON	P_dem_-_sg_n_gen	Case=Gen|Gender=Neut|Number=Sing	36	obl	_	OrigDep=DepVCas|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 38	.	.	PUNCT	Z	_	37	punct	_	OrigDep=Ponct
 
-# sent_id = 167
+# sent_id = 368
 # text = Već su se po provincijama pojavljivali špijuni i provokatori i, preodeveni u radničke lidere, sa lažnim brkovima, prisluškivali razgovore po kafanama i beležili u svoje notese sitnim šifrovanim rukopisom revolucionarne ili makar sumnjive, anarhističke izjave pojedinih naprednih buržuja, grafičkih radnika i zidarskih kalfi.
 1	Već	već	ADV	Adv_gen_pos	Degree=Pos	6	advmod	_	OrigDep=DepVAdv
 2	su	jesam	AUX	V_aux_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:3
@@ -10726,7 +10726,7 @@
 48	kalfi	kalfa	NOUN	N_com_nom_pl_f	Case=Nom|Gender=Fem|Number=Plur	42	conj	_	OrigDep=Coord|OrigFeats=c:nom;g:f;n:pl|SpaceAfter=No
 49	.	.	PUNCT	Z	_	48	punct	_	OrigDep=Ponct
 
-# sent_id = 168
+# sent_id = 369
 # text = Pošto je on očigledno bio napušten, počeli smo da ga bespravno svojatamo, pa je i moja majka govorila ne samo « naši jeleni » nego čak i « naš zamak », iako nikad nismo prekoračili njegovu ogradu od kopalja, iako nikad nismo povredili integritet njegove samoće i njegovog dostojanstva.
 1	Pošto	pošto	SCONJ	C_sub	_	6	mark	_	OrigDep=Sub
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -10783,7 +10783,7 @@
 53	dostojanstva	dostojanstvo	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	50	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
 54	.	.	PUNCT	Z	_	53	punct	_	OrigDep=Ponct
 
-# sent_id = 169
+# sent_id = 370
 # text = Sedeli smo u tom malom restoranu provincijske stanice, skoro sami, tete-à-tete, nad prljavim kariranim stolnjakom.
 1	Sedeli	sedeti	VERB	V_main_partact_-_pl_m_-	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:pl;t:partact
 2	smo	jesam	AUX	V_aux_pres_1_pl_-_-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:pl;t:pres;r:1
@@ -10805,7 +10805,7 @@
 18	stolnjakom	stolnjak	NOUN	N_com_ins_sg_m	Case=Ins|Gender=Masc|Number=Sing	1	obl	_	OrigDep=ComplPrep|OrigFeats=c:ins;g:m;n:sg|SpaceAfter=No
 19	.	.	PUNCT	Z	_	18	punct	_	OrigDep=Ponct
 
-# sent_id = 170
+# sent_id = 371
 # text = Pružio je ruke da ih ogreje, možda i da nešto isprosi.
 1	Pružio	pružiti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partact
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -10821,7 +10821,7 @@
 12	isprosi	isprositi	VERB	V_main_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:3|SpaceAfter=No
 13	.	.	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
 
-# sent_id = 171
+# sent_id = 372
 # text = I ja to činim sve dok ponovo ne zadremam.
 1	I	i	CCONJ	C_coord	_	4	cc	_	OrigDep=Root
 2	ja	ja	PRON	P_pers_1_sg_-_nom	Case=Nom|Number=Sing|Person=1	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;n:sg;r:1
@@ -10834,7 +10834,7 @@
 9	zadremam	zadremati	VERB	V_main_pres_1_sg_-_-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	OrigDep=PredSub|OrigFeats=n:sg;t:pres;r:1|SpaceAfter=No
 10	.	.	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 
-# sent_id = 172
+# sent_id = 373
 # text = Urlik im beše sve viši i zacenutiji; probijao je i cepao gustu vrućinu koja nas je prekrila kao vrela ponjava.
 1	Urlik	urlik	NOUN	N_com_acc_sg_m	Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	OrigDep=Suj|OrigFeats=c:acc;g:m;n:sg
 2	im	oni	PRON	P_pers_3_pl_m_dat	Case=Dat|Gender=Masc|Number=Plur|Person=3	5	iobj	_	OrigDep=ObjIndirCas|OrigFeats=c:dat;g:m;n:pl;r:3
@@ -10859,7 +10859,7 @@
 21	ponjava	ponjava	NOUN	N_com_nom_sg_f	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:f;n:sg|SpaceAfter=No
 22	.	.	PUNCT	Z	_	21	punct	_	OrigDep=Ponct
 
-# sent_id = 173
+# sent_id = 374
 # text = Shimnici (sve sami seljaci i begunci) vredno su radili na polju, okopavali kukuruze, sekli drveće, podizali ustave; u crkvi su brundali i zavijali hrapavim glasovima koji su znali i za pogane reči i za sve skrnavno.
 1	Shimnici	shimnik	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 2	(	(	PUNCT	Z	_	1	punct	_	OrigDep=Ponct|SpaceAfter=No
@@ -10905,7 +10905,7 @@
 42	skrnavno	skrnavno	NOUN	N_com_acc_sg_n	Case=Acc|Gender=Neut|Number=Sing	38	conj	_	OrigDep=ComplPrep|OrigFeats=c:acc;g:n;n:sg|SpaceAfter=No
 43	.	.	PUNCT	Z	_	42	punct	_	OrigDep=Ponct
 
-# sent_id = 174
+# sent_id = 375
 # text = S druge strane, po zakonu polarizacije, devojčice počinju da navijaju za mene, vrlo nenametljivo, skoro neprimetno, čuvajući se da pokažu svoje naklonosti.
 1	S	sa	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	druge	drugi	NUM	Num_ord_f_sg_gen	Case=Gen|Gender=Fem|Number=Sing	3	nummod	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:f;n:sg
@@ -10936,7 +10936,7 @@
 27	naklonosti	naklonost	NOUN	N_com_acc_pl_f	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:f;n:pl|SpaceAfter=No
 28	.	.	PUNCT	Z	_	27	punct	_	OrigDep=Ponct
 
-# sent_id = 175
+# sent_id = 376
 # text = On je smatrao da niko iz njegove blizine ne sme i ne može da preživi njegovu kataklizmu, smatrao je svoju sudbinu sudbinom svoga roda i svoje vrste.
 1	On	on	PRON	P_pers_3_sg_m_nom	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg;r:3
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -10968,7 +10968,7 @@
 28	vrste	vrsta	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	25	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 29	.	.	PUNCT	Z	_	28	punct	_	OrigDep=Ponct
 
-# sent_id = 176
+# sent_id = 377
 # text = Naravno, ta njegova lirska, klovnovska maska, jedna od poslednjih, nije služila za uveseljavanje zadivljene i malobrojne publike, nego je on njome hteo da prikrije patetiku ovog trenutka i, u prvom redu, da se naruga gospodinu Rajnvajnu, koji je ovo putovanje bio, očigledno, shvatio sasvim tragično, faraonski ozbiljno.
 1	Naravno	naravno	ADV	Part	_	15	advmod	_	OrigDep=ExtraPred|SpaceAfter=No
 2	,	,	PUNCT	Z	_	1	punct	_	OrigDep=Ponct
@@ -11030,7 +11030,7 @@
 58	ozbiljno	ozbiljno	ADV	Adv_gen_pos	Degree=Pos	55	conj	_	OrigDep=DepVAdv|SpaceAfter=No
 59	.	.	PUNCT	Z	_	58	punct	_	OrigDep=Ponct
 
-# sent_id = 177
+# sent_id = 378
 # text = Na drugom kraju šanca (nevidljiv a poznat) neko je svirao u dvojnice i nečiji glas ga je tiho pratio.
 1	Na	na	ADP	Prep	_	3	case	_	OrigDep=DepVPrep
 2	drugom	drugi	NUM	Num_ord_m_sg_loc	Case=Loc|Gender=Masc|Number=Sing	3	nummod	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:m;n:sg
@@ -11055,7 +11055,7 @@
 21	pratio	pratiti	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	conj	_	OrigDep=Coord|OrigFeats=g:m;n:sg;t:partact|SpaceAfter=No
 22	.	.	PUNCT	Z	_	21	punct	_	OrigDep=Ponct
 
-# sent_id = 178
+# sent_id = 379
 # text = Svoju je promašenost osvetljavao tom bengalskom vatrom sa žrtvenika na kome je izgarao, a svoju bedu objašnjavao je svojim rođacima i sestrama teorijom o odricanju, prezirao je materijalna bogatstva u ime svoje promašenosti, u ime žrtve, i svoj je kraj proglašavao krajem sveta, apokalipsom.
 1	Svoju	svoj	DET	A_pos_acc_sg_f_-	Case=Acc|Gender=Fem|Number=Sing	3	det	_	OrigDep=DepNAdj|OrigFeats=c:acc;g:f;n:sg
 2	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
@@ -11108,7 +11108,7 @@
 49	apokalipsom	apokalipsa	NOUN	N_com_ins_sg_f	Case=Ins|Gender=Fem|Number=Sing	46	conj	_	OrigDep=Coord|OrigFeats=c:ins;g:f;n:sg|SpaceAfter=No
 50	.	.	PUNCT	Z	_	49	punct	_	OrigDep=Ponct
 
-# sent_id = 179
+# sent_id = 380
 # text = Kako zamišljate njegovu revolucionarnu, istorijski dalekosežnu odluku da prekine sa svojim roditeljima, sa svojim mnogobrojnim sestrama, sa svojim bratom i svojim prezimenom?
 1	Kako	kako	ADV	Adv_inter_-	_	2	advmod	_	OrigDep=DepVAdv
 2	zamišljate	zamišljati	VERB	V_main_pres_2_pl_-_-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:2
