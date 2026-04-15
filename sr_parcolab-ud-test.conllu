@@ -7509,7 +7509,7 @@
 11	njegova	njegov	DET	A_pos_gen_sg_m_-	Case=Gen|Gender=Masc|Number=Sing	12	det	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:m;n:sg
 12	Prafausta	Prafaust	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 13	,	,	PUNCT	Z	_	12	punct	_	OrigDep=Ponct
-14	što	što	PRON	P_rel_-_-_-_nom	Case=Nom	17	mark	_	OrigDep=Sub|OrigFeats=c:nom
+14	što	što	SCONJ	P_rel_-_-_-_nom	_	17	mark	_	OrigDep=Sub|OrigFeats=c:nom
 15	ga	on	PRON	P_pers_3_sg_m_acc	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	OrigDep=ObjDir|OrigFeats=c:acc;g:m;n:sg;r:3
 16	je	jesam	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3
 17	počeo	početi	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	acl:relcl	_	OrigDep=PredSub|OrigFeats=g:m;n:sg;t:partact
@@ -8405,7 +8405,7 @@
 116	grehova	greh	NOUN	N_com_gen_pl_m	Case=Gen|Gender=Masc|Number=Plur	114	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:pl|SpaceAfter=No
 117	,	,	PUNCT	Z	_	116	punct	_	OrigDep=Ponct
 118	kao	kao	SCONJ	C_sub	_	119	case	_	OrigDep=Sub
-119	kupu	kupa	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	114	obl	_	OrigDep=DepEx_ObjDir|OrigFeats=c:acc;g:f;n:sg
+119	kupu	kupa	NOUN	N_com_acc_sg_f	Case=Acc|Gender=Fem|Number=Sing	111	obl	_	OrigDep=DepEx_ObjDir|OrigFeats=c:acc;g:f;n:sg
 120	kužnog	kužan	ADJ	A_qual_gen_sg_m_pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	121	amod	_	OrigDep=DepNAdj|OrigFeats=c:gen;g:m;n:sg
 121	gnoja	gnoj	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	119	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:m;n:sg|SpaceAfter=No
 122	.	.	PUNCT	Z	_	121	punct	_	OrigDep=Ponct
@@ -8768,16 +8768,16 @@
 
 # sent_id = sr_parcolab-ud-test_s300
 # text = A na tom mesu, kao na mrcini, roj muva i jedna laži-pčela čije zujanje liči na daleku, vrlo daleku zvonjavu.
-1	A	a	CCONJ	C_coord	_	10	cc	_	OrigDep=Root
+1	A	a	CCONJ	C_coord	_	4	cc	_	OrigDep=Root
 2	na	na	ADP	Prep	_	4	case	_	OrigDep=DepEx_DepVPrep
 3	tom	taj	DET	A_dem_loc_sg_n_-	Case=Loc|Gender=Neut|Number=Sing	4	det	_	OrigDep=DepNAdj|OrigFeats=c:loc;g:n;n:sg
-4	mesu	meso	NOUN	N_com_loc_sg_n	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:n;n:sg|SpaceAfter=No
+4	mesu	meso	NOUN	N_com_loc_sg_n	Case=Loc|Gender=Neut|Number=Sing	0	root	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:n;n:sg|SpaceAfter=No
 5	,	,	PUNCT	Z	_	4	punct	_	OrigDep=Ponct
 6	kao	kao	SCONJ	C_sub	_	8	case	_	OrigDep=DepEx_Sub
 7	na	na	ADP	Prep	_	8	case	_	OrigDep=DepEx_DepVPrep
-8	mrcini	mrcina	NOUN	N_com_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg|SpaceAfter=No
+8	mrcini	mrcina	NOUN	N_com_loc_sg_f	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	OrigDep=ComplPrep|OrigFeats=c:loc;g:f;n:sg|SpaceAfter=No
 9	,	,	PUNCT	Z	_	8	punct	_	OrigDep=Ponct
-10	roj	roj	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	0	root	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:sg
+10	roj	roj	NOUN	N_com_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	OrigDep=DepEx_Suj|OrigFeats=c:nom;g:m;n:sg
 11	muva	muva	NOUN	N_com_gen_pl_f	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:f;n:pl
 12	i	i	CCONJ	C_coord	_	14	cc	_	OrigDep=ConjCoord
 13	jedna	jedan	NUM	Num_card_f_sg_nom	Case=Nom|Gender=Fem|Number=Sing	14	nummod	_	OrigDep=DepNAdj|OrigFeats=c:nom;g:f;n:sg

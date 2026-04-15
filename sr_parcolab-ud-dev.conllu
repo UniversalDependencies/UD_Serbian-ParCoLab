@@ -7191,7 +7191,7 @@
 99	Joannes	Joannes	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	98	flat	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:sg
 100	Marczell	Marczell	PROPN	N_prop_nom_sg_m	Case=Nom|Gender=Masc|Number=Sing	99	flat	_	OrigDep=Ap|OrigFeats=c:nom;g:m;n:sg|SpaceAfter=No
 101	,	,	PUNCT	Z	_	100	punct	_	OrigDep=Ponct
-102	vicarius	vicarius	X	X	ExtPos=NOUN	98	appos	_	OrigDep=Ap
+102	vicarius	vicarius	NOUN	X	_	98	appos	_	OrigDep=Ap
 103	generalis	generalis	X	X	_	102	fixed	_	OrigDep=Polylex
 104	»	»	PUNCT	Z	_	102	punct	_	OrigDep=Ponct|SpaceAfter=No
 105	.	.	PUNCT	Z	_	102	punct	_	OrigDep=Ponct
