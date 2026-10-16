@@ -6516,7 +6516,7 @@
 8	puta	put	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	OrigDep=ComplNum|OrigFeats=c:gen;g:m;n:sg
 9	ranjen	raniti	VERB	V_main_partpass_-_sg_m_-	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Conv	0	root	_	OrigDep=Root|OrigFeats=g:m;n:sg;t:partpass|SpaceAfter=No
 10	,	,	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
-11	nekoliko	nekoliko	DET	Adv_gen_pos	Degree=Pos	12	det:numgov	_	OrigDep=DepVAdv
+11	nekoliko	nekoliko	DET	Adv_gen_pos	_	12	det:numgov	_	OrigDep=DepVAdv
 12	puta	put	NOUN	N_com_gen_sg_m	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:m;n:sg
 13	unapređivan	unapređivati	VERB	V_main_partact_-_sg_m_-	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	conj	_	OrigDep=Coord|OrigFeats=g:m;n:sg;t:partact|SpaceAfter=No
 14	,	,	PUNCT	Z	_	13	punct	_	OrigDep=Ponct
@@ -7943,7 +7943,7 @@
 5	kiše	kiša	NOUN	N_com_gen_sg_f	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	OrigDep=ComplPrep|OrigFeats=c:gen;g:f;n:sg|SpaceAfter=No
 6	,	,	PUNCT	Z	_	5	punct	_	OrigDep=Ponct
 7	sagore	sagoreti	VERB	V_main_aor_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	OrigDep=Coord|OrigFeats=n:sg;t:aor;r:3
-8	nekoliko	nekoliko	DET	Adv_gen_pos	Degree=Pos	9	det:numgov	_	OrigDep=Suj
+8	nekoliko	nekoliko	DET	Adv_gen_pos	_	9	det:numgov	_	OrigDep=Suj
 9	kuća	kuća	NOUN	N_com_gen_pl_f	Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	OrigDep=DepAdvCas|OrigFeats=c:gen;g:f;n:pl|SpaceAfter=No
 10	,	,	PUNCT	Z	_	9	punct	_	OrigDep=Ponct
 11	štala	štala	NOUN	N_com_gen_pl_f	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	OrigDep=Coord|OrigFeats=c:gen;g:f;n:pl
