@@ -17694,7 +17694,7 @@
 
 # sent_id = sr_parcolab-ud-train_s625
 # text = Ostrvo je bilo kamenito i šturo, isplakivano kišama; okruživalo nas je teško, nemirno more, talasi su urlajući lupali o hridine.
-1	Ostrvo	ostrvo	NOUN	A_qual_nom_sg_n_pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
+1	Ostrvo	ostrvo	NOUN	A_qual_nom_sg_n_pos	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:n;n:sg
 2	je	biti	AUX	V_aux_pres_3_sg_-_-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	OrigDep=AuxV|OrigFeats=n:sg;t:pres;r:3|OrigLemma=jesam
 3	bilo	biti	AUX	V_main_partact_-_sg_n_-	Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	4	cop	_	OrigDep=Root|OrigFeats=g:n;n:sg;t:partact
 4	kamenito	kamenit	ADJ	A_qual_nom_sg_n_pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	OrigDep=PredicNom|OrigFeats=c:nom;g:n;n:sg
@@ -17881,7 +17881,7 @@
 
 # sent_id = sr_parcolab-ud-train_s632
 # text = Kaljani su posmatrači neba, ljudi koji žive sa licima prema gore, zagledani u nadzemaljsku sferu; možda se zato tako malo i uzgredno bave zemljom i sobom.
-1	Kaljani	Kaljanin	PROPN	A_qual_nom_pl_m_pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
+1	Kaljani	Kaljanin	PROPN	A_qual_nom_pl_m_pos	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	OrigDep=Suj|OrigFeats=c:nom;g:m;n:pl
 2	su	biti	AUX	V_main_pres_3_pl_-_-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	OrigDep=Root|OrigFeats=n:pl;t:pres;r:3|OrigLemma=jesam
 3	posmatrači	posmatrač	NOUN	N_com_nom_pl_m	Case=Nom|Gender=Masc|Number=Plur	0	root	_	OrigDep=PredicNom|OrigFeats=c:nom;g:m;n:pl
 4	neba	nebo	NOUN	N_com_gen_sg_n	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	OrigDep=DepNCas|OrigFeats=c:gen;g:n;n:sg|SpaceAfter=No
