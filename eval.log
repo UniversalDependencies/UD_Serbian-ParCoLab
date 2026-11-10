@@ -1,0 +1,112 @@
+Running the following version of UD tools:
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 10 13:08:27 2026 +0100
+Evaluating the following revision of UD_Serbian-ParCoLab:
+commit 6fd0c46cc7358201ef2fa5d868a173fb05e57dc7
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 8 12:46:01 2026 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sr_parcolab'
+Language code (from CoNLL-U file name) = 'sr'
+Found the following data files: sr_parcolab-ud-dev.conllu, sr_parcolab-ud-test.conllu, sr_parcolab-ud-train.conllu
+Size: counted 45681 of 45681 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.64336491305341.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 29780 out of 45681 total words have one or more features.
+Features: source of annotation (from README) factor is 0.9.
+Universal relations: 34 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.9.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-ParCoLab/sr_parcolab-ud-dev.conllu
+[Line 23 Sent sr_parcolab-ud-dev_s1]: [L3 WARNING pron-det-without-prontype] The word 'koje' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 29 Sent sr_parcolab-ud-dev_s1]: [L3 WARNING pron-det-without-prontype] The word 'neki' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 37 Sent sr_parcolab-ud-dev_s1]: [L3 WARNING pron-det-without-prontype] The word 'moj' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 56 Sent sr_parcolab-ud-dev_s3]: [L3 WARNING pron-det-without-prontype] The word 'koje' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent sr_parcolab-ud-dev_s4]: [L3 WARNING pron-det-without-prontype] The word 'ti' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 75 Sent sr_parcolab-ud-dev_s4]: [L3 WARNING pron-det-without-prontype] The word 'išta' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 86 Sent sr_parcolab-ud-dev_s5]: [L3 WARNING pron-det-without-prontype] The word 'koji' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 87 Sent sr_parcolab-ud-dev_s5]: [L3 WARNING pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 95 Sent sr_parcolab-ud-dev_s5]: [L3 WARNING pron-det-without-prontype] The word 'svi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 97 Sent sr_parcolab-ud-dev_s5]: [L3 WARNING pron-det-without-prontype] The word 'mi' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 331 Sent sr_parcolab-ud-dev_s13]: [L3 WARNING fixed-without-extpos] Fixed expression 'još uvek' does not have the 'ExtPos' feature
+[Line 501 Sent sr_parcolab-ud-dev_s18]: [L3 WARNING fixed-without-extpos] Fixed expression 'A dva' does not have the 'ExtPos' feature
+[Line 529 Sent sr_parcolab-ud-dev_s18]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao i' does not have the 'ExtPos' feature
+[Line 1105 Sent sr_parcolab-ud-dev_s35]: [L3 WARNING fixed-without-extpos] Fixed expression 'ma kuda' does not have the 'ExtPos' feature
+[Line 1109 Sent sr_parcolab-ud-dev_s35]: [L3 WARNING fixed-without-extpos] Fixed expression 'ma šta' does not have the 'ExtPos' feature
+[Line 1113 Sent sr_parcolab-ud-dev_s35]: [L3 WARNING fixed-without-extpos] Fixed expression 'ma koliko' does not have the 'ExtPos' feature
+[Line 1262 Sent sr_parcolab-ud-dev_s43]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1302 Sent sr_parcolab-ud-dev_s44]: [L3 WARNING fixed-without-extpos] Fixed expression 'ni šta' does not have the 'ExtPos' feature
+[Line 1302 Sent sr_parcolab-ud-dev_s44]: [L3 WARNING fixed-gap] Gaps in fixed expression [13, 15] 'ni * šta'
+[Line 1352 Sent sr_parcolab-ud-dev_s46]: [L3 WARNING fixed-without-extpos] Fixed expression 'koliko god' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 1381
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-ParCoLab/sr_parcolab-ud-test.conllu
+[Line 4 Sent sr_parcolab-ud-test_s1]: [L3 WARNING pron-det-without-prontype] The word 'me' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 20 Sent sr_parcolab-ud-test_s2]: [L3 WARNING pron-det-without-prontype] The word 'nešto' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 22 Sent sr_parcolab-ud-test_s2]: [L3 WARNING pron-det-without-prontype] The word 'onu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 31 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 32 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'ona' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 42 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'nam' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 48 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'kojih' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 87 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'to' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 142 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'onu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 143 Sent sr_parcolab-ud-test_s3]: [L3 WARNING pron-det-without-prontype] The word 'prvu' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 199 Sent sr_parcolab-ud-test_s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato što' does not have the 'ExtPos' feature
+[Line 227 Sent sr_parcolab-ud-test_s3]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 621 Sent sr_parcolab-ud-test_s17]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 755 Sent sr_parcolab-ud-test_s22]: [L3 WARNING fixed-without-extpos] Fixed expression 'Gde god' does not have the 'ExtPos' feature
+[Line 760 Sent sr_parcolab-ud-test_s22]: [L3 WARNING fixed-without-extpos] Fixed expression 'šta god' does not have the 'ExtPos' feature
+[Line 892 Sent sr_parcolab-ud-test_s26]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+[Line 1026 Sent sr_parcolab-ud-test_s33]: [L3 WARNING fixed-without-extpos] Fixed expression 'dvadeset pet' does not have the 'ExtPos' feature
+[Line 1070 Sent sr_parcolab-ud-test_s34]: [L3 WARNING fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
+[Line 1089 Sent sr_parcolab-ud-test_s35]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 1151 Sent sr_parcolab-ud-test_s36]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 1356
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang sr --max-err=10 UD_Serbian-ParCoLab/sr_parcolab-ud-train.conllu
+[Line 4 Sent sr_parcolab-ud-train_s1]: [L3 WARNING pron-det-without-prontype] The word 'to' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 5 Sent sr_parcolab-ud-train_s1]: [L3 WARNING pron-det-without-prontype] The word 'što' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 6 Sent sr_parcolab-ud-train_s1]: [L3 WARNING pron-det-without-prontype] The word 'me' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 11 Sent sr_parcolab-ud-train_s1]: [L3 WARNING pron-det-without-prontype] The word 'ta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 14 Sent sr_parcolab-ud-train_s1]: [L3 WARNING pron-det-without-prontype] The word 'to' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 28 Sent sr_parcolab-ud-train_s2]: [L3 WARNING pron-det-without-prontype] The word 'se' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent sr_parcolab-ud-train_s2]: [L3 WARNING pron-det-without-prontype] The word 'našoj' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 34 Sent sr_parcolab-ud-train_s2]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao što' does not have the 'ExtPos' feature
+[Line 37 Sent sr_parcolab-ud-train_s2]: [L3 WARNING pron-det-without-prontype] The word 'mi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent sr_parcolab-ud-train_s2]: [L3 WARNING pron-det-without-prontype] The word 'nečijoj' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 56 Sent sr_parcolab-ud-train_s3]: [L3 WARNING pron-det-without-prontype] The word 'mi' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 260 Sent sr_parcolab-ud-train_s13]: [L3 WARNING fixed-without-extpos] Fixed expression 'pa i' does not have the 'ExtPos' feature
+[Line 450 Sent sr_parcolab-ud-train_s21]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+[Line 539 Sent sr_parcolab-ud-train_s25]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+[Line 805 Sent sr_parcolab-ud-train_s35]: [L3 WARNING fixed-without-extpos] Fixed expression 'Da li' does not have the 'ExtPos' feature
+[Line 991 Sent sr_parcolab-ud-train_s41]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+[Line 1106 Sent sr_parcolab-ud-train_s43]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+[Line 1460 Sent sr_parcolab-ud-train_s54]: [L3 WARNING fixed-without-extpos] Fixed expression 'zato da' does not have the 'ExtPos' feature
+[Line 1552 Sent sr_parcolab-ud-train_s58]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+[Line 1576 Sent sr_parcolab-ud-train_s59]: [L3 WARNING fixed-without-extpos] Fixed expression 'kao da' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 3483
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.9) = 0.1
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.553245200818671) = 0.204905629932841
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.847058823529412) = 0.0941176470588235
+(weight=0.111111111111111) * (score{udeprels}=0.827027027027027) = 0.0918918918918919
+(TOTAL score=0.635606526908248) * (availability=1) * (validity=1) = 0.635606526908248
+STARS = 3
+UD_Serbian-ParCoLab	0.635606526908248	3
